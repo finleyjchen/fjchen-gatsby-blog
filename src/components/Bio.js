@@ -26,7 +26,7 @@ Email
 <a href="https://github.com/inlorfaze">
 Github
 </a>
-<a href="https://linkedin.com/finleychen" >
+<a href="https://www.linkedin.com/in/finleychen/" >
 LinkedIn
 </a>
 <a href="https://twitter.com/finleychen">
