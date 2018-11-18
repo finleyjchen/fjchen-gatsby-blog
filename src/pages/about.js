@@ -19,7 +19,7 @@ class AboutPage extends React.Component {
           meta={[{ name: 'description', content: siteDescription }]}
           title={siteTitle}
         />
-        <p class="display">
+        <p className="display">
           I’m a freelance web developer who specializes in WordPress. I create functional, fast and responsive websites optimized for search engines.
 </p>
         <About />

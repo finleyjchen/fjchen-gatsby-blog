@@ -1,5 +1,5 @@
 ---
-title: Finley's collection of WordPress snippets
+title: Useful WordPress snippets
 date: '2018-11-16'
 ---
 

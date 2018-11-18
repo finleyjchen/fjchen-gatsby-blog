@@ -11,7 +11,7 @@ class Bio extends React.Component {
       <div
         className="bio "
       >
-
+    
         <p>
           Hi, my name is <strong>Finley Chen</strong>.
         </p>

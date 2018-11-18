@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'fjchen.net',
     author: 'Finley Chen',
-    description: 'Freelance web developer',
+    description: 'Self-taught web developer and student. WordPress expert, currently learning Javascript and React.',
     siteUrl: 'https://gatsbyjs.github.io/gatsby-starter-blog/',
   },
   pathPrefix: '/gatsby-starter-blog',
