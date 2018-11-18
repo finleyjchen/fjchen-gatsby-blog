@@ -12,3 +12,12 @@ On to my favorite Typekit fonts.
 Font used in this website: [*Halyard*](https://fonts.adobe.com/fonts/halyard)
  - Halyard Text for body text
  - Halyard Display for headings
+
+## Sans-serif fonts
+ - [Proxima Nova](https://fonts.adobe.com/fonts/proxima-nova) by Mark Simonson
+ - [Adelle Sans](https://fonts.adobe.com/fonts/adelle-sans) by José Scaglione and Veronika Burian
+ - [Fira Sans](https://fonts.adobe.com/fonts/fira-sans) by bBox Type GmbH and Edenspiekermann AG. 
+ - [Neue Haas Grotesk](https://fonts.adobe.com/fonts/neue-haas-grotesk) by Christian Schwartz
+ - [Neue Haas Unica](https://fonts.adobe.com/fonts/neue-haas-unica) by Toshi Omagari
+ - [Interstate](https://fonts.adobe.com/fonts/interstate) by Font Bureau
+ - [Futura PT](https://fonts.adobe.com/fonts/futura-pt) by Isabella Chaeva, Paul Renner, Vladimir Andrich, and Vladimir Yefimov.
