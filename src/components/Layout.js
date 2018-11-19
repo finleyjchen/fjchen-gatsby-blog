@@ -40,13 +40,13 @@ class Layout extends React.Component {
 
               to={'/about'}
             >
-              About
+              about
             </Link>
             <Link
 
               to={'/work'}
             >
-              Work
+              work
             </Link>
           </span>
         </div>
@@ -70,13 +70,13 @@ class Layout extends React.Component {
 
               to={'/about'}
             >
-              About
+              about
             </Link>
             <Link
 
               to={'/work'}
             >
-              Work
+              work
 </Link>
           </span>
         </div>

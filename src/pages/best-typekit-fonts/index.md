@@ -21,3 +21,4 @@ Font used in this website: [*Halyard*](https://fonts.adobe.com/fonts/halyard)
  - [Neue Haas Unica](https://fonts.adobe.com/fonts/neue-haas-unica) by Toshi Omagari
  - [Interstate](https://fonts.adobe.com/fonts/interstate) by Font Bureau
  - [Futura PT](https://fonts.adobe.com/fonts/futura-pt) by Isabella Chaeva, Paul Renner, Vladimir Andrich, and Vladimir Yefimov.
+ - [Iskra](https://fonts.adobe.com/fonts/iskra) by Tom Grace
