@@ -137,3 +137,14 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     color:rgb(136, 136, 136);
 }
 
+
+
+.social-links a {
+    text-decoration:none;
+    margin:0 0.5em;
+    border-bottom:2px solid #cc333350;
+}
+
+.social-links a:hover {
+    border-bottom:2px solid #cc3333;
+}
