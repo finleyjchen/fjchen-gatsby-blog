@@ -9,8 +9,8 @@ import Layout from '../components/Layout'
 import '../assets/index.css';
 class WorkPage extends React.Component {
   render() {
-    const siteTitle = 'work'
-    const siteDescription = 'about finley chen'
+    const siteTitle = 'Finley Chen | Work'
+    const siteDescription = 'Finley Chen works hard to develop exactly what the client needs.'
 
     return (
       <Layout location={this.props.location} title={siteTitle}>

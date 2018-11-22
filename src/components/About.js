@@ -2,35 +2,39 @@ import React from 'react'
 import youngfinley from "./youngfinley.jpg"
 const About = () => (
     <div>
+        <p className="display">
+          I’m a freelance web developer who specializes in WordPress. I create functional, fast and responsive websites optimized for search engines.
+        </p>
         <img className="img" src={youngfinley} alt="finley chen" />
-        <p>I made my first website at 11 years old – it was a WordPress website for a video game team. Since then, I’ve been using my knowledge in WordPress, PHP, and of course HTML, CSS, and JavaScript to help other businesses harness the potential of WordPress. I grew up in San Diego but now live in San Luis Obispo, California for school at Cal Poly.</p>
+        <p className="text-center">Me and my Dad around 2001</p>
+        <p>I made my first website at 11 years old – it was a WordPress website for a video game team. Since then, I’ve been using my knowledge in WordPress, PHP, and of course HTML, CSS, and JavaScript to help other businesses harness the potential of WordPress and other web technologies. I grew up in San Diego but now live in San Luis Obispo, California for school at Cal Poly.</p>
+        <h3>Self-starter</h3>
+        <p>
+            Employers often ask me how I have 2+ years of web development experience at 18 years old. I can attribute those achievements to the kind of person I am: an independent self-starter with big dreams and ambitions. I'm enamored by the idea of solving issues, helping consumers - and making money in the process!
+        </p>
         <h3>Improving Daily</h3>
         <p>
-            There’s no question the developer world is a fast-paced, growing one. There are new frameworks, trends, and technologies that developers have to constantly be learning and getting familiar with.
+            There’s no question the developer world is a fast-paced, growing one. There are seemingly infinite new frameworks, trends, and technologies that keep developers like me up at night fiddling with documentation and testing.
         </p>
 
         <p>
-            I am great at reaching solutions to problems because of my ability to learn new things fast – Google, Stack Overflow, and software documentation are some of the resources I’m constantly using and reading every day.
-
+            In preparation for the upcoming release of Gutenberg, I have been learning frontend skills like React and Redux, while also sharpening my backend skills by working with Express and NodeJS.
         </p>
-        <p>
-
-            In preparation for the upcoming release of Gutenberg, I have been learning React and Redux.
-</p>
 <h3>Extra</h3>
 <p>
-In my spare time I like to play video games, eat ramen, write about nearly anything, spend time with my girlfriend, and study.
+In my spare time I like to play video games, eat ramen, write, spend time with my girlfriend, and study.
 </p>
 <ul>
-<li><em>Theme: Customized Genesis Sample by&nbsp;</em><a href="https://www.studiopress.com/sample/">StudioPress</a></li>
-<li><em>CMS: <a href="https://wordpress.org">WordPress</a></em></li>
+
+<li><em>CMS: </em> <a href="https://wordpress.org">WordPress</a>, <a href="https://gatsbyjs.org">GatsbyJS</a></li>
 <li><em>OS: Windows</em></li>
 <li><em>Local development server: </em><a href="https://www.apachefriends.org">XAMPP</a></li>
 <li><em>Text Editor: </em><a href="https://code.visualstudio.com/">VS Code</a></li>
+<li><em>Font: </em><a href="https://github.com/tonsky/FiraCode">Fira Code</a></li>
 <li><em>Terminal: </em><a href="https://hyper.is/">Hyper</a></li>
 <li>Currently learning: React, Redux, Next.js, Gatsby, Gutenberg, Ruby on Rails</li>
 </ul>
-If it means anything, I pride myself in the Challenger rank (top 200 in North America) I achieved in the ever-popular video game League of Legends. I’m actually working on a website to provide statistics and helpful guides for the game character I play – Gangplank.
+Not that it means much, but I pride myself in achieving Challenger (top 200 in North America) in the ever-popular video game League of Legends. I’m actually working on a website to provide statistics and helpful guides for the game character I play – Gangplank.
     </div>
 )
 

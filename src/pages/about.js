@@ -10,7 +10,7 @@ import '../assets/index.css';
 class AboutPage extends React.Component {
   render() {
     const siteTitle = 'about finley chen'
-    const siteDescription = 'Finley Chen is a frontend web developer in San Luis Obispo. He works with Javascript and WordPress'
+    const siteDescription = 'Finley Chen is a web developer in San Luis Obispo. He works with Javascript and WordPress to create online experiences.'
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -19,9 +19,7 @@ class AboutPage extends React.Component {
           meta={[{ name: 'description', content: siteDescription }]}
           title={siteTitle}
         />
-        <p className="display">
-          I’m a freelance web developer who specializes in WordPress. I create functional, fast and responsive websites optimized for search engines.
-</p>
+
         <About />
       </Layout>
     )

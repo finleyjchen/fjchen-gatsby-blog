@@ -21,7 +21,7 @@ class BlogIndex extends React.Component {
         <Helmet
           htmlAttributes={{ lang: 'en' }}
           meta={[{ name: 'description', content: siteDescription }]}
-          title={'Finley Chen | Custom WordPress websites'}
+          title={'Finley Chen | WordPress Developer'}
         />
         <Bio />
         <small> Posts </small>

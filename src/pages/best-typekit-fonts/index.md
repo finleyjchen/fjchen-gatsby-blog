@@ -22,3 +22,8 @@ Font used in this website: [*Halyard*](https://fonts.adobe.com/fonts/halyard)
  - [Interstate](https://fonts.adobe.com/fonts/interstate) by Font Bureau
  - [Futura PT](https://fonts.adobe.com/fonts/futura-pt) by Isabella Chaeva, Paul Renner, Vladimir Andrich, and Vladimir Yefimov.
  - [Iskra](https://fonts.adobe.com/fonts/iskra) by Tom Grace
+ - [Brandon Grotesque](https://fonts.adobe.com/fonts/brandon-grostesque)
+
+## Serif fonts
+
+Also check out the [top 25 fonts on Typekit](https://theblog.adobe.com/top-25-typefaces-next-project/)

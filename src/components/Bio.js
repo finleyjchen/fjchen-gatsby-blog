@@ -16,7 +16,7 @@ class Bio extends React.Component {
           Hi, my name is <strong>Finley Chen</strong>.
         </p>
         <p>
-          I'm a frontend web developer studying at Cal Poly, San Luis Obispo. In addition to working solo, I am involved in a few projects with <a href="https://colonymedia.us">Colony Media</a>.
+          I'm a web developer studying at Cal Poly, San Luis Obispo. In addition to working solo, I am involved in a few projects with <a href="https://colonymedia.us">Colony Media</a>.
         </p>
         <p>I'm always looking for work. The things I specialize in are databases and business IT infrastructure, WordPress, React, and SEO. If you need a designer I can also connect you to one.  Just <a href="mailto:finleyjchen@gmail.com">shoot me a message.</a></p>
         <div className="social-links">

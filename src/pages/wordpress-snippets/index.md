@@ -1,6 +1,6 @@
 ---
 title: Useful WordPress snippets
-date: '2018-11-16'
+date: '2018-10-11'
 ---
 
 As someone who regularly runs the entire process of getting a WordPress website online from domain to development to deployment, I encounter many of the same issues and nuances that come with each website. Here are some of my solutions to common WordPress issues that you might find handy.
