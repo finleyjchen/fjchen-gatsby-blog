@@ -9,7 +9,7 @@ import Layout from '../components/Layout'
 import '../assets/index.css';
 class AboutPage extends React.Component {
   render() {
-    const siteTitle = 'about finley chen'
+    const siteTitle = 'about'
     const siteDescription = 'Finley Chen is a web developer in San Luis Obispo. He works with Javascript and WordPress to create online experiences.'
 
     return (
@@ -17,7 +17,7 @@ class AboutPage extends React.Component {
         <Helmet
           htmlAttributes={{ lang: 'en' }}
           meta={[{ name: 'description', content: siteDescription }]}
-          title={siteTitle}
+          title={'finley - ' + siteTitle}
         />
 
         <About />
