@@ -14,6 +14,10 @@ class Layout extends React.Component {
       this.setState({ didMount: true })
     }, 0)
   }
+
+  componentWillUnmount() {
+    clearTimeout();
+    }
   render() {
     const { didMount } = this.state
 

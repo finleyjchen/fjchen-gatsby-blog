@@ -25,5 +25,9 @@ Font used in this website: [*Halyard*](https://fonts.adobe.com/fonts/halyard)
  - [Brandon Grotesque](https://fonts.adobe.com/fonts/brandon-grostesque)
 
 ## Serif fonts
+ - [ITC Benguiat](https://fonts.adobe.com/fonts/itc-benguiat) by Ed Benguiat
+ - [Henriette](https://fonts.adobe.com/fonts/henriette) by Michael Hochleitner
+ - [Museo Slab](https://fonts.adobe.com/fonts/museo-slab) by Jos Buivenga
+ - [Mrs Eaves](https://fonts.adobe.com/fonts/mrs-eaves) by Zuzana Licko
 
-Also check out the [top 25 fonts on Typekit](https://theblog.adobe.com/top-25-typefaces-next-project/)
+> Also check out the [top 25 fonts on Typekit](https://theblog.adobe.com/top-25-typefaces-next-project/)
