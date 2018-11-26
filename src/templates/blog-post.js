@@ -25,7 +25,7 @@ class BlogPostTemplate extends React.Component {
 
           }}
         >
-          {post.frontmatter.date}
+          <strong className="post-date">{post.frontmatter.date}</strong>
         </p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         

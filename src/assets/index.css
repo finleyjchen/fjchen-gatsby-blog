@@ -19,8 +19,6 @@ body {
 code[class*="language-"], pre[class*="language-"] {
     font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 }
-p {
-}
 
 h1,h2,h3,h4,h5,h6 {
     font-family: halyard-display, sans-serif;
@@ -174,4 +172,9 @@ blockquote {
 
 blockquote p {
     display: inline;
-  }
+}
+
+.post-date {
+    text-transform: uppercase;
+    color:#616161;
+}

@@ -21,7 +21,8 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 590,
+              maxWidth: 800,
+              showCaptions: true
             },
           },
           {
@@ -54,7 +55,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/assets/gatsby-icon.png`,
+        icon: `src/assets/noodles-icon.png`,
       },
     },
     `gatsby-plugin-offline`,
