@@ -93,8 +93,7 @@ class Layout extends React.Component {
 
           {header}
         </div>
-        <div className={`fade-in ${didMount && 'visible'}`}
-        >
+        <div className={`fade-in ${didMount && 'visible'}`}>
           {children}
         </div>
         <div className="footer">
