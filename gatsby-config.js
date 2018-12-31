@@ -3,9 +3,8 @@ module.exports = {
     title: 'fjchen.net',
     author: 'Finley Chen',
     description: 'Self-taught web developer and student. WordPress expert, currently learning Javascript and React.',
-    siteUrl: 'https://gatsbyjs.github.io/gatsby-starter-blog/',
+    siteUrl: 'https://fjchen.net',
   },
-  pathPrefix: '/gatsby-starter-blog',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -53,7 +52,7 @@ module.exports = {
         short_name: `fjchen.net`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#cc3333`,
         display: `minimal-ui`,
         icon: `src/assets/noodles-icon.png`,
       },

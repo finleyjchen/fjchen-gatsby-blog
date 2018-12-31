@@ -2,15 +2,14 @@ import React from 'react'
 import youngfinley from "./youngfinley.jpg"
 const About = () => (
     <div>
-        <p className="display">
+        <p className="display text-center">
           I’m a freelance web developer who specializes in WordPress. I create functional, fast and responsive websites optimized for search engines.
         </p>
         <img className="img" src={youngfinley} alt="finley chen" />
         <p className="text-center">Me and my Dad around 2001</p>
-        <p>I made my first website at 11 years old – it was a WordPress website for a video game team. Since then, I’ve been using my knowledge in WordPress, PHP, and of course HTML, CSS, and JavaScript to help other businesses harness the potential of WordPress and other web technologies. I grew up in San Diego but now live in San Luis Obispo, California for school at Cal Poly.</p>
-        <h3>Self-starter</h3>
-        <p>
-            Employers often ask me how I have 2+ years of web development experience at 18 years old. I can attribute those achievements to the kind of person I am: an independent self-starter with big dreams and ambitions. I'm enamored by the idea of solving issues, helping consumers - and making money in the process!
+        <p>I made my first website at 11 years old. Since then, I’ve been using my knowledge in WordPress, PHP, and of course HTML, CSS, and JavaScript to help businesses harness the potential of WordPress and other web technologies. I grew up in San Diego but now live in San Luis Obispo, California for school at Cal Poly.</p>
+        <p> 
+          I have big dreams and ambitions. I'm enamored by the idea of solving issues, helping consumers - and making money in the process!
         </p>
         <h3>Improving Daily</h3>
         <p>
@@ -18,17 +17,17 @@ const About = () => (
         </p>
 
         <p>
-            In preparation for the upcoming release of Gutenberg, I have been learning frontend skills like React and Redux, while also sharpening my backend skills by working with Express and NodeJS.
+            With the recent release of WordPress 5.0 and Gutenberg, I have been learning frontend skills like React and Redux, while also sharpening my backend skills by working with Express and NodeJS.
         </p>
 <h3>Extra</h3>
 <p>
-In my spare time I like to play video games, eat ramen, write, spend time with my girlfriend, and study.
+When I'm not developing I enjoy playing video games, eating ramen, writing, spending time with my girlfriend, and studying.
 </p>
 <ul>
 
-<li><em>CMS: </em> <a href="https://wordpress.org">WordPress</a>, <a href="https://gatsbyjs.org">GatsbyJS</a></li>
-<li><em>OS: Windows</em></li>
-<li><em>Local development server: </em><a href="https://www.apachefriends.org">XAMPP</a></li>
+<li><em>CMS: </em> <a href="https://wordpress.org">WordPress</a>, <a href="https://netlifycms.org">NetlifyCMS</a></li>
+<li><em>OS: Windows, Unix (Arch)</em></li>
+<li><em>Local development server: </em><a href="https://www.apachefriends.org">XAMPP</a>, <a href="https://getflywheel.com">FlyWheel</a></li>
 <li><em>Text Editor: </em><a href="https://code.visualstudio.com/">VS Code</a></li>
 <li><em>Font: </em><a href="https://github.com/tonsky/FiraCode">Fira Code</a></li>
 <li><em>Terminal: </em><a href="https://hyper.is/">Hyper</a></li>

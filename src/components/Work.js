@@ -13,7 +13,8 @@ const Work = () => (
             </p>
             <p className="text-muted">
                 <IoMdHourglass />May 2018 – Present
-</p>
+            </p>
+            
             <p>
                 Completing WordPress website work contracts, maintenance and server management for 10+ websites.</p>
         </div>
@@ -42,10 +43,9 @@ const Work = () => (
                 <IoMdHourglass />January 2017 – Present
         </p>
             <p>
-                Creating pure HTML/CSS/JS websites, WordPress websites (vanilla WordPress and Genesis Framework websites), custom child theme development, and custom WordPress plugin development. Also doing SEO work to increase websites’ online web presence.
+                Creating pure HTML/CSS/JS websites, WordPress websites (vanilla WordPress and Genesis Framework), custom child theme development, and custom WordPress plugin development. Also doing SEO work to increase websites’ online web presence.
             </p>
         </div>
-
 
     </div>
 )

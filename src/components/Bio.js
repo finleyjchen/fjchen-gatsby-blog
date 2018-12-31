@@ -8,19 +8,15 @@ import profileImg from './profile-img.jpg'
 class Bio extends React.Component {
   render() {
     return (
-      <div
-        className="bio "
-      >
-              <img className="profile-img" src={profileImg} alt='finley chen photo' />
-
+      <div className="bio">
+        <img className="profile-img" src={profileImg} alt='finley chen photo' />
         <p>
-
           Hi, my name is <strong>Finley Chen</strong>.
         </p>
         <p>
           I'm a web developer studying at Cal Poly, San Luis Obispo. In addition to working solo, I am involved in a few projects with <a href="https://colonymedia.us">Colony Media</a>.
         </p>
-        <p>I'm always open for work or ideas. I specialize in databases and business IT infrastructure, WordPress, React, and SEO. Just <a href="mailto:finleyjchen@gmail.com">shoot me a message.</a></p>
+        <p>I'm always open for work or ideas. I specialize in databases and business IT infrastructure, WordPress, PHP, React, and SEO. Just <a href="mailto:finleyjchen@gmail.com">shoot me a message.</a></p>
         <div className="social-links">
           <a href="mailto:finleyjchen@gmail.com">
             Email
