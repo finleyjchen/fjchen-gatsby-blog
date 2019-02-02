@@ -7,8 +7,8 @@ html {
 }
 
 body {
+  font-family: neue-haas-grotesk-text, sans-serif;
     font-family: halyard-text, sans-serif;
-    font-family: neue-haas-grotesk-text, sans-serif;
     letter-spacing:0.1px;
     max-width:1100px;
     margin:auto;
@@ -84,6 +84,13 @@ a:hover {
 
 .bio {
     margin-bottom:2.5em;
+    font-size:18px;
+    letter-spacing: 0;
+}
+
+.bio p {
+  margin-top:0;
+  margin-bottom:5px;
 }
 
 .button {
@@ -164,16 +171,13 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 .social-links {
-  margin:auto;
-  display:flex;
-  justify-content: space-around;
-  width:300px;
+
 }
 
 .social-links a {
     text-decoration:none;
     
-    margin:0 0.5em;
+    margin:0 0.4em;
     border-bottom:2px solid #cc333350;
 }
 
