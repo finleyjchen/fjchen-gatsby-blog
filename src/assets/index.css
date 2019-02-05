@@ -10,7 +10,7 @@ body {
   font-family: neue-haas-grotesk-text, sans-serif;
     font-family: halyard-text, sans-serif;
     letter-spacing:0.1px;
-    max-width:1100px;
+    max-width:900px;
     margin:auto;
     padding:1em;
     background-color:#fff;
@@ -137,6 +137,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .post-link {
      text-decoration: none;
      border-bottom:2px solid #cc333350;
+     line-height:1.6;
      
  }
  .post-link:hover {
@@ -187,13 +188,15 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 .dotted-line {
     border-bottom:2px dotted #39393920;
+    margin-bottom:20px;
 }
 
 .profile-img {
     border-radius:10px;
     display:block;
-    width:50%;
-    margin:auto;
+    float:left;
+    width:80px;
+    margin-right:10px;
 }
 
 @media screen and (min-width:500px) {
@@ -225,15 +228,13 @@ blockquote p {
 .next-post-link {
   font-weight:700;
   text-decoration: none;
-  border:1px solid #cc3333;
   border-radius:5px;
   padding: 0.5em 1em;
   transition: 0.15s ease-in-out;
 }
 
 .next-post-link:hover {
-  color:white;
-  background-color:#cc3333;
+
 }
 
 svg {
@@ -248,4 +249,18 @@ svg {
 
 .examples {
 
+}
+
+.author .profile-img {
+  float:left;
+  border-radius: 500px;
+  max-width:80px;
+  display: inline-block;
+}
+
+.author {
+  font-size:18px;
+}
+.author p {
+  margin:0;
 }

@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 import { Link, graphql } from 'gatsby'
 import get from 'lodash/get'
 import { DiscussionEmbed } from 'disqus-react'
-import Bio from '../components/Bio'
+import Author from '../components/Author'
 import Layout from '../components/Layout'
 
 class BlogPostTemplate extends React.Component {
@@ -32,9 +32,9 @@ class BlogPostTemplate extends React.Component {
           <strong className="post-date">{post.frontmatter.date}</strong>
         </p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        
+
         <div className="dotted-line"></div>
-        <Bio />
+        <Author />
 
         <ul
           style={{
@@ -56,7 +56,7 @@ class BlogPostTemplate extends React.Component {
           <li>
             {
               next &&
-              <Link to={next.fields.slug} className="next-post-link"  rel="next">
+              <Link to={next.fields.slug} className="next-post-link" rel="next">
                 {next.frontmatter.title} →
 
               </Link>
