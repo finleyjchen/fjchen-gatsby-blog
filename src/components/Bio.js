@@ -16,7 +16,7 @@ class Bio extends React.Component {
         <p>
           I'm a web developer studying and working at Cal Poly, San Luis Obispo. I am also involved in projects with <a href="https://colonymedia.us">Colony Media</a>.
         </p>
-        <p>I'm always open for work or ideas. I specialize in Ecommerce, WordPress, PHP, React, and SEO. Just <a href="mailto:finleyjchen@gmail.com">send me a message.</a></p>
+        <p>I'm always open to discuss work or ideas. I specialize in Ecommerce, WordPress, PHP, React, and SEO. Just <a href="mailto:finleyjchen@gmail.com">send me a message.</a></p>
         <div className="social-links">
           <a href="mailto:finleyjchen@gmail.com">
             Email

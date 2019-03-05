@@ -24,13 +24,14 @@ To use it, replace ‘menu-name’ with your menu of choice and replace the link
 ```php
 add_filter( 'wp_nav_menu_items', 'add_auth_links', 10 , 2 );
 function add_auth_links( $items, $args ) {
-if ( is_user_logged_in() && $args->theme_location == 'menu-name') {
-$items .= '<li class=""><a href="/my-account/customer-logout/">Sign Out</a></li>';
-}
-elseif ( !is_user_logged_in() && $args->theme_location == 'menu-name') {
-$items .= '<li class="login-button"><a href="/my-account/">Sign In/Sign Up</a></li>';
-}
-return $items;
+  if ( is_user_logged_in() && $args->theme_location == 'menu-name') {
+    $items .= '<li class=""><a href="/my-account/customer-logout/">Sign Out</a></li>';
+  }
+  elseif ( !is_user_logged_in() && $args->theme_location == 'menu-name') {
+    $items .= '<li class="login-button"><a href="/my-account/">Sign In/Sign Up</a></li>';
+  }
+  
+  return $items;
 }
 
 ```

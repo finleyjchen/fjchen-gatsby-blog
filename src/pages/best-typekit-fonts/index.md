@@ -9,9 +9,9 @@ As a web developer and a student, being enrolled in a university brings all kind
 
 On to my favorite Typekit fonts. 
 
-Font used in this website: [*Halyard*](https://fonts.adobe.com/fonts/halyard)
- - Halyard Text for body text
- - Halyard Display for headings
+Font used in this website: 
+ - [System font stack](https://css-tricks.com/snippets/css/system-font-stack/) for body text
+ - [*Aktiv Grotesk*](https://fonts.adobe.com/fonts/aktiv-grotesk) for headings
 
 ## Sans-serif fonts
  - [Proxima Nova](https://fonts.adobe.com/fonts/proxima-nova) by Mark Simonson
