@@ -24,7 +24,6 @@ class BlogIndex extends React.Component {
           title={'Finley Chen | WordPress Developer'}
         />
         <Bio />
-        <small> Posts </small>
         {posts.map(({ node }) => {
           const title = get(node, 'frontmatter.title') || node.fields.slug
           return (
