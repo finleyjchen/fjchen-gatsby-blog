@@ -25,7 +25,7 @@ class BlogPostTemplate extends React.Component {
           meta={[{ name: 'description', content: siteDescription }]}
           title={`${post.frontmatter.title} | ${siteTitle}`}
         />
-        <h1>{post.frontmatter.title}</h1>
+        <h1 className="post-title">{post.frontmatter.title}</h1>
         <p><strong className="post-date">{post.frontmatter.date}</strong></p>
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
 
