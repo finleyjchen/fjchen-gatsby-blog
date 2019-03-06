@@ -5,6 +5,7 @@ import get from 'lodash/get'
 import { DiscussionEmbed } from 'disqus-react'
 import Author from '../components/Author'
 import Layout from '../components/Layout'
+import '../assets/index.css';
 
 class BlogPostTemplate extends React.Component {
   render() {
