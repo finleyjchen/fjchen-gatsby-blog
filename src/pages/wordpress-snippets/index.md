@@ -35,3 +35,18 @@ function add_auth_links( $items, $args ) {
 }
 
 ```
+
+## Remove the generated product schema markup from Product Category and Shop pages.
+On February 13, 2019, issues arose in my Google search console for some WooCommerce sites. The issue was on category and shop pages, specifically saying: Either "offers", "review", or "aggregateRating" should be specified. 
+
+Thanks to [this](https://www.checkerboard.com/web-development/fix-offers-review-aggregaterating-specified/) article right here, the schema is removed from the pages that aren't single products, thus helping SEO.
+
+This snippet is usually placed in functions.php
+
+```php
+function wc_remove_product_schema_product_archive() {
+	remove_action( 'woocommerce_shop_loop', array( WC()->structured_data, 'generate_product_data' ), 10, 0 );
+}
+add_action( 'woocommerce_init', 'wc_remove_product_schema_product_archive' );
+```
+

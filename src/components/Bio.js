@@ -1,38 +1,65 @@
 import React from 'react'
-
-// Import typefaces
-
-
 import profileImg from './profile-img.jpg'
-
+import github from '../assets/github.svg'
+import linkedin from '../assets/linkedin.svg'
+import twitter from '../assets/twitter.svg'
+import mail from '../assets/mail.svg'
+import cover from '../assets/cover.png'
+import cover3 from '../assets/Surrealist-Lightbulb.gif'
+import {
+  IoIosSpeedometer,
+  IoIosMail,
+  IoLogoTwitter,
+  IoLogoTwitch,
+  IoLogoGithub,
+  IoLogoLinkedin,
+} from 'react-icons/io'
 class Bio extends React.Component {
   render() {
     return (
-      <div className="bio">
+      <div className="bio  ">
         {/* <img className="profile-img" src={profileImg} alt='finley chen photo' /> */}
-        <p>
-          Hi, my name is <strong>Finley Chen</strong>.
-        </p>
-        <p>
-          I'm a web developer studying and working at Cal Poly, San Luis Obispo. I am also involved in projects with <a href="https://colonymedia.us">Colony Media</a>.
-I'm always open to discuss work or ideas. I specialize in Ecommerce, WordPress, PHP, React, and SEO. Just <a href="mailto:finleyjchen@gmail.com">send me a message.</a></p>
+        <div className="dtc v-mid ">
+          <p className="f3 f1-ns fw4 lh-headline mb0">
+            Websites built to grow.
+          </p>
+          <p className="f2-ns lh-copy fw3 mt0">
+            Speed, accessibility, and SEO.
+          </p>
+        </div>
+        <div className="dtc tc v-mid">
+          <img src={cover3} alt="cover image" className="mw5-ns mw4" />
+        </div>
 
-        <div className="social-links">
-          <a href="mailto:finleyjchen@gmail.com">
-            Email
+        <p className="mt5-ns f4-ns lh-copy mb4">
+          Hi, my name is Finley. I’m a freelance web developer who specializes
+          in WordPress. Hire me to create functional, fast and responsive
+          websites optimized for search engines.
+        </p>
+        <div className="social-links mb4 f2 tc tl-ns">
+          <a
+            className="mh2 mr3-l ml0-l dim link"
+            href="mailto:finleyjchen@gmail.com"
+          >
+            <IoIosMail />
           </a>
-          <a href="https://github.com/inlorfaze">
-            Github
+          <a className="mh2 mh3-l dim link" href="https://github.com/inlorfaze">
+            <IoLogoGithub />
           </a>
-          <a href="https://www.linkedin.com/in/finleychen/" >
-            LinkedIn
+          <a
+            className="mh2 mh3-l dim link"
+            href="https://www.linkedin.com/in/finleychen/"
+          >
+            <IoLogoLinkedin />
           </a>
-          <a href="https://twitter.com/finleychen">
-            Twitter
+          <a
+            className="mh2 mh3-l dim link"
+            href="https://twitter.com/finleychen"
+          >
+            <IoLogoTwitter />
           </a>
         </div>
       </div>
-
     )
   }
 }
