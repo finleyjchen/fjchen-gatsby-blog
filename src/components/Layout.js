@@ -16,7 +16,7 @@ class Layout extends React.Component {
       },
     }
 
-    this.randomColorClick = this.randomColorClick.bind(this)
+    // this.randomColorClick = this.randomColorClick.bind(this)
   }
   componentDidMount() {
     // fetch('randoma11y.com/combos/active')
@@ -25,28 +25,28 @@ class Layout extends React.Component {
     setTimeout(() => {
       this.setState({ didMount: true })
     }, 0)
-    axios
-      .get('https://randoma11y.com/combos')
-      .then(response => {
-        // create an array of contacts only with relevant data
-        console.log(response)
-        const newColors = response.data.map(c => {
-          return {
-            color_one: c.color_one,
-            color_two: c.color_two,
-          }
-        })
+    // axios
+    //   .get('https://randoma11y.com/combos')
+    //   .then(response => {
+    //     // create an array of contacts only with relevant data
+    //     console.log(response)
+    //     const newColors = response.data.map(c => {
+    //       return {
+    //         color_one: c.color_one,
+    //         color_two: c.color_two,
+    //       }
+    //     })
 
-        // create a new "State" object without mutating
-        // the original State object.
-        const newState = Object.assign({}, this.state, {
-          colors: newColors,
-        })
+    //     // create a new "State" object without mutating
+    //     // the original State object.
+    //     const newState = Object.assign({}, this.state, {
+    //       colors: newColors,
+    //     })
 
-        // store the new state object in the component's state
-        this.setState(newState)
-      })
-      .catch(error => console.log(error))
+    //     // store the new state object in the component's state
+    //     this.setState(newState)
+    //   })
+    //   .catch(error => console.log(error))
   }
 
   componentWillUnmount() {
@@ -75,7 +75,7 @@ class Layout extends React.Component {
     let header
 
     header = (
-      <nav className="db dt-ns center w-100 border-box pv3">
+      <nav className="db dt-ns center w-100 border-box pv3-ns">
         <Link
           to={'/'}
           className="db dtc-ns b v-mid link dim w-100 w-30-ns tc tl-ns mb2 mb0-ns f3"
@@ -83,15 +83,15 @@ class Layout extends React.Component {
           Finley Chen
         </Link>
         <div className="db dtc-ns v-mid w-100 w-60-ns tc tr-ns">
-          <Link className="link dim  f6 f5-ns dib mr3 mr4-ns" to={'/about'}>
+          <Link className="link dim f5 f4-ns dib mr3 mr4-ns" to={'/about'}>
             about
           </Link>
-          <Link className="link dim  f6 f5-ns dib mr3 mr4-ns" to={'/work'}>
+          <Link className="link dim f5 f4-ns dib mr3 mr4-ns" to={'/work'}>
             work
           </Link>
-          <a href="#" className="link" onClick={this.randomColorClick}>
+          {/* <a href="#" className="link" onClick={this.randomColorClick}>
             <IoMdColorPalette />
-          </a>
+          </a> */}
         </div>
       </nav>
     )

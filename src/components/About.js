@@ -1,11 +1,13 @@
 import React from 'react'
+import { Link } from 'gatsby'
+
 import youngfinley from './youngfinley-min.jpg'
 const About = () => (
   <div className="lh-copy">
-    <h1 className="lh-title tc">About me</h1>
-    <div className="tc">
+    <h1 className="lh-title ">About me</h1>
+    <div className="">
       <img
-        className="br-100 pa1 ba b--black-10 mw5"
+        className="mw100 pa1 ba b--black-10 mw6-ns"
         src={youngfinley}
         alt="finley chen"
       />
@@ -15,7 +17,6 @@ const About = () => (
       I’m a freelance web developer who specializes in WordPress. I create
       functional, fast and responsive websites optimized for search engines.
     </p>
-    <div className="tc" />
     <p>
       I made my first website at 11 years old. Since then, I’ve been using my
       knowledge in WordPress, PHP, and of course HTML, CSS, and JavaScript to
@@ -44,40 +45,9 @@ const About = () => (
       When I'm not developing I enjoy playing video games, eating ramen,
       writing, spending time with my girlfriend, and studying.
     </p>
-    <ul>
-      <li>
-        <em>CMS: </em> <a href="https://wordpress.org">WordPress</a>,{' '}
-        <a href="https://netlifycms.org">NetlifyCMS</a>
-      </li>
-      <li>
-        <em>OS: Windows, Unix (Arch)</em>
-      </li>
-      <li>
-        <em>Local development server: </em>
-        <a href="https://www.apachefriends.org">XAMPP</a>,{' '}
-        <a href="https://getflywheel.com">FlyWheel</a>
-      </li>
-      <li>
-        <em>Text Editor: </em>
-        <a href="https://code.visualstudio.com/">VS Code</a>
-      </li>
-      <li>
-        <em>Font: </em>
-        <a href="https://github.com/tonsky/FiraCode">Fira Code</a>
-      </li>
-      <li>
-        <em>Terminal: </em>
-        <a href="https://hyper.is/">Hyper</a>
-      </li>
-      <li>
-        Currently learning: React, Redux, Next.js, Gatsby, Gutenberg, Ruby on
-        Rails
-      </li>
-    </ul>
-    Not that it means much, but I pride myself in achieving Challenger (top 200
-    in North America) in the ever-popular video game League of Legends. I’m
-    actually working on a website to provide statistics and helpful guides for
-    the game character I play – Gangplank.
+    <p>
+      <Link to={'/uses'}>Uses</Link>
+    </p>
   </div>
 )
 

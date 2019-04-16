@@ -6,6 +6,7 @@ import calpoly from '../assets/Cal-poly-work-min.png'
 import colonymedia from '../assets/colony-media-work-min.png'
 const Work = () => (
   <div>
+    <h1>Work</h1>
     <div className="post">
       <h3>
         <a href="https://calpoly.edu" className="post-link">
