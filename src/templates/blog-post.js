@@ -2,7 +2,6 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { Link, graphql } from 'gatsby'
 import get from 'lodash/get'
-import { DiscussionEmbed } from 'disqus-react'
 import Bio from '../components/Bio'
 import Layout from '../components/Layout'
 import '../assets/index.css'
@@ -25,25 +24,22 @@ class BlogPostTemplate extends React.Component {
           meta={[{ name: 'description', content: siteDescription }]}
           title={`${post.frontmatter.title} | ${siteTitle}`}
         />
-        <h1 className="post-title">{post.frontmatter.title}</h1>
-        <p>
-          <strong className="post-date">{post.frontmatter.date}</strong>
-        </p>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
 
+        <div className="mw7 center">
+          <p className="lh-title mv0 tc ttu tracked">{post.frontmatter.date}</p>
+          <h1 className="fw5 f1-ns f2 fh-title tc mt0">
+            {post.frontmatter.title}
+          </h1>
+          <div
+            className="lh-copy "
+            dangerouslySetInnerHTML={{ __html: post.html }}
+          />
+        </div>
         <div className="dotted-line" />
         <Bio />
 
-        <ul
-          style={{
-            display: 'flex',
-            flexWrap: 'wrap',
-            justifyContent: 'space-between',
-            listStyle: 'none',
-            padding: 0,
-          }}
-        >
-          <li>
+        <ul className="flex justify-between ">
+          <li className="db">
             {previous && (
               <Link
                 to={previous.fields.slug}
@@ -54,7 +50,7 @@ class BlogPostTemplate extends React.Component {
               </Link>
             )}
           </li>
-          <li>
+          <li className="db">
             {next && (
               <Link to={next.fields.slug} className="next-post-link" rel="next">
                 {next.frontmatter.title} →
@@ -62,7 +58,6 @@ class BlogPostTemplate extends React.Component {
             )}
           </li>
         </ul>
-        <DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
       </Layout>
     )
   }

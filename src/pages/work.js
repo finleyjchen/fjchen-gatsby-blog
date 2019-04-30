@@ -6,11 +6,12 @@ import Helmet from 'react-helmet'
 import Bio from '../components/Bio'
 import Work from '../components/Work'
 import Layout from '../components/Layout'
-import '../assets/index.css';
+import '../assets/index.css'
 class WorkPage extends React.Component {
   render() {
     const siteTitle = 'work'
-    const siteDescription = 'Finley Chen works hard to develop exactly what the client needs.'
+    const siteDescription =
+      'Finley Chen works hard to develop exactly what the client needs.'
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -26,4 +27,3 @@ class WorkPage extends React.Component {
 }
 
 export default WorkPage
-

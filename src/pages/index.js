@@ -9,8 +9,8 @@ import '../assets/index.css'
 import 'prismjs/themes/prism-tomorrow.css'
 import 'tachyons/css/tachyons.min.css'
 import cover3 from '../assets/cover-min.gif'
-
-class BlogIndex extends React.Component {
+import SocialLinks from '../components/SocialLinks'
+class Index extends React.Component {
   render() {
     const siteTitle = 'Finley Chen'
     const siteDescription = get(
@@ -26,20 +26,29 @@ class BlogIndex extends React.Component {
           meta={[{ name: 'description', content: siteDescription }]}
           title={'Finley Chen | WordPress Developer'}
         />
-        <div className="mb5">
-          <div className="dtc v-mid ">
-            <p className="f2 f1-ns fw4 lh-headline mb0">
-              Websites built to grow.
+        <div className="mv5 cf">
+          <div className="fl w-100 w-50-ns  ">
+            <p className="f1 f1-ns fw5 lh-headline mb0">
+              WordPress Design & Development
             </p>
-            <p className="f2-ns lh-copy fw3 mt0">
+            <p className="f4 f2-ns lh-headline fw3 mt0 mb3 gray">
               Speed, accessibility, and SEO.
             </p>
+
+            <p className="f4 measure lh-copy mb4">
+              Hi there, my name is Finley. I’m a freelance web developer who
+              specializes in WordPress and Woocommerce. Hire me to create
+              functional, fast and responsive websites optimized for search
+              engines.
+            </p>
+
+            <SocialLinks />
           </div>
-          <div className="dtc v-mid">
-            <img src={cover3} alt="cover image" className="mw5-ns mw4" />
+          <div className="fl w-100 w-50-ns tr">
+            <img src={cover3} alt="cover image" className="" />
           </div>
         </div>
-        <Bio />
+
         {/* {posts.map(({ node }) => {
           const title = get(node, 'frontmatter.title') || node.fields.slug
           return (
@@ -61,29 +70,4 @@ class BlogIndex extends React.Component {
   }
 }
 
-export default BlogIndex
-
-export const pageQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-        description
-      }
-    }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-      edges {
-        node {
-          excerpt
-          fields {
-            slug
-          }
-          frontmatter {
-            date(formatString: "MMMM DD, YYYY")
-            title
-          }
-        }
-      }
-    }
-  }
-`
+export default Index

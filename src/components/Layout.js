@@ -2,7 +2,8 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import axios from 'axios'
-import { IoIosHeart, IoMdColorPalette } from 'react-icons/io'
+import { IoIosHeart, IoMdMenu, IoMdGlasses } from 'react-icons/io'
+import Menu from '../components/Menu'
 class Layout extends React.Component {
   constructor(props) {
     super(props)
@@ -15,9 +16,9 @@ class Layout extends React.Component {
         backgroundColor: '#fff',
       },
     }
-
     // this.randomColorClick = this.randomColorClick.bind(this)
   }
+
   componentDidMount() {
     // fetch('randoma11y.com/combos/active')
     //   .then(response => response.json())
@@ -25,6 +26,7 @@ class Layout extends React.Component {
     setTimeout(() => {
       this.setState({ didMount: true })
     }, 0)
+
     // axios
     //   .get('https://randoma11y.com/combos')
     //   .then(response => {
@@ -74,33 +76,18 @@ class Layout extends React.Component {
     const rootPath = `${__PATH_PREFIX__}/`
     let header
 
-    header = (
-      <nav className="db dt-ns center w-100 border-box pv3-ns">
-        <Link
-          to={'/'}
-          className="db dtc-ns b v-mid link dim w-100 w-30-ns tc tl-ns mb2 mb0-ns f3"
-        >
-          Finley Chen
-        </Link>
-        <div className="db dtc-ns v-mid w-100 w-60-ns tc tr-ns">
-          <Link className="link dim f5 f4-ns dib mr3 mr4-ns" to={'/about'}>
-            about
-          </Link>
-          <Link className="link dim f5 f4-ns dib mr3 mr4-ns" to={'/work'}>
-            work
-          </Link>
-          {/* <a href="#" className="link" onClick={this.randomColorClick}>
-            <IoMdColorPalette />
-          </a> */}
-        </div>
-      </nav>
-    )
+    header = <Menu />
 
     return (
-      <div className="wrap" style={this.state.divStyle}>
-        <div className="mw7 center pa3 pa0-l">
-          <div className="nav">{header}</div>
-          <div className={`fade-in ${didMount && 'visible'}`}>{children}</div>
+      <div className="wrap min-vh-100" style={this.state.divStyle}>
+        <div className="mw8 center">
+          {header}
+          <div
+            className={`ph3 top-margin mt0-ns pa0-l fade-in ${didMount &&
+              'visible'}`}
+          >
+            {children}
+          </div>
           <div className="footer mv4 cf">
             <small className="db mb2 fl-ns">&copy; Finley Chen</small>
 

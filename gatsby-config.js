@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: 'fjchen.net',
     author: 'Finley Chen',
-    description: 'Self-taught web developer and student. WordPress expert, currently learning Javascript and React.',
+    description:
+      'Self-taught web developer and student. WordPress expert, currently learning Javascript and React.',
     siteUrl: 'https://fjchen.net',
   },
   plugins: [
@@ -14,6 +15,20 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/pages/work`,
+        name: 'work',
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/assets/images/`,
+      },
+    },
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
@@ -21,7 +36,7 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 800,
-              showCaptions: true
+              showCaptions: true,
             },
           },
           {
@@ -59,6 +74,5 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
-
   ],
 }

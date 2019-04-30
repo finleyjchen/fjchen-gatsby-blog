@@ -6,11 +6,12 @@ import Helmet from 'react-helmet'
 import Bio from '../components/Bio'
 import About from '../components/About'
 import Layout from '../components/Layout'
-import '../assets/index.css';
+import '../assets/index.css'
 class AboutPage extends React.Component {
   render() {
     const siteTitle = 'about'
-    const siteDescription = 'Finley Chen is a web developer in San Luis Obispo. He works with Javascript and WordPress to create online experiences.'
+    const siteDescription =
+      'Finley Chen is a web developer in San Luis Obispo. He works with Javascript and WordPress to create online experiences.'
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -19,7 +20,6 @@ class AboutPage extends React.Component {
           meta={[{ name: 'description', content: siteDescription }]}
           title={'finley - ' + siteTitle}
         />
-
         <About />
       </Layout>
     )
@@ -27,4 +27,3 @@ class AboutPage extends React.Component {
 }
 
 export default AboutPage
-
