@@ -131,64 +131,6 @@ const Work = () => (
         {/* </Link> */}
       </div>
     </div>
-
-    <div className="post">
-      <h4>
-        <a href="https://calpoly.edu" className="post-link">
-          California Polytechnic University
-        </a>
-      </h4>
-      <p className="f6 lh-copy ma0">
-        <FiMapPin /> San Luis Obispo, CA
-      </p>
-      <p className="f6 lh-copy ma0">
-        <IoMdHourglass />
-        January 2019 – Present
-      </p>
-
-      <p>
-        Student assistant frontend web developer for Cal Poly's Administration &
-        Finance Department.
-      </p>
-    </div>
-    <div className="post">
-      <h4>
-        <a href="https://colonymedia.us" className="post-link">
-          Colony Media
-        </a>
-      </h4>
-      <p className="f6 lh-copy ma0">
-        <FiMapPin /> San Luis Obispo, CA
-      </p>
-      <p className="f6 lh-copy ma0">
-        <IoMdHourglass />
-        May 2018 – Present
-      </p>
-
-      <p>
-        Completing WordPress website work contracts, maintenance and server
-        management for 10+ websites.
-      </p>
-    </div>
-
-    <div className="post">
-      <h4>
-        <span className="post-link">Freelance web developer</span>
-      </h4>
-      <p className="f6 lh-copy ma0">
-        <FiMapPin /> Remote
-      </p>
-      <p className="f6 lh-copy ma0">
-        <IoMdHourglass />
-        January 2017 – Present
-      </p>
-      <p>
-        Creating pure HTML/CSS/JS websites, WordPress websites (vanilla
-        WordPress and Genesis Framework), custom child theme development, and
-        custom WordPress plugin development. Also doing SEO work to increase
-        websites’ online web presence.
-      </p>
-    </div>
   </div>
 )
 

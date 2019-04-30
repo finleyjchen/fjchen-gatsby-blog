@@ -88,7 +88,7 @@ class Layout extends React.Component {
           >
             {children}
           </div>
-          <div className="footer mv4 cf">
+          <div className="footer mv4 cf pa3 pa0-ns">
             <small className="db mb2 fl-ns">&copy; Finley Chen</small>
 
             <small className="db fr-ns">
