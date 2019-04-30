@@ -8,6 +8,7 @@ import Bio from '../../components/Bio'
 import Work from '../../components/Work'
 import Layout from '../../components/Layout'
 import '../../assets/index.css'
+import { IoIosLink } from 'react-icons/io'
 class CalPoly extends React.Component {
   render() {
     const siteTitle = 'work'
@@ -21,26 +22,47 @@ class CalPoly extends React.Component {
           meta={[{ name: 'description', content: siteDescription }]}
           title={'finley - ' + siteTitle}
         />
-        <h1 className="f1-ns f3 lh-title">CalPoly</h1>
-        <div className="post">
-          <h3>
-            <a href="https://CalPoly.edu" className="post-link">
-              Canterbury Gardens & Gifts
+        <a
+          href="https://afd.calpoly.edu"
+          className=" fr db tc center mt2 mt0-ns dib-ns f5 f3-ns link ba bw1 ph3 pv2 mb2 bg-black bg-animate white b--near-black hover-bg-white hover-near-black "
+        >
+          afd.calpoly.edu <IoIosLink />
+        </a>
+        <article className="">
+          <h1 className="f1-ns f3 lh-title">
+            <a href="https://yourchristmasstore.com" className="link">
+              California Polytechnic State University
             </a>
-          </h3>
-          <p className="f6 lh-copy ma0">
-            <FiMapPin /> San Diego, CA
+          </h1>
+
+          <p className="f3 measure">
+            Student assistant front-end web developer for Cal Poly's
+            Administration and Finance Department (AFD).
           </p>
-          <p className="f6 lh-copy ma0">
-            <IoMdHourglass />
-            April 2016 – Present
+        </article>
+        <img src="" alt="" />
+
+        <article className="measure ">
+          <h2>New Template Migration</h2>
+          <p className="lh-copy">
+            At Cal Poly, I'm helping scaffold out sites for the Administration
+            and Finance department. My role is in the design and hard-coding of
+            pages for each subdepartment. I'm given site templates with content
+            in Word Docs and convert them to semantic, organized HTML and PHP.
           </p>
-          <p>
-            Creating a new WP/WooCommerce website with 2000+ products, managing
-            eCommerce database entries and batch product uploads, doing SEO
-            work, and managing orders, shipments, and invoices.
+
+          <p className="lh-copy">
+            Working for Cal Poly has taught me the groundworks for making
+            clean-coded websites:
           </p>
-        </div>
+          <ul className="lh-copy">
+            <li>Writing CSS efficiently</li>
+            <li>Semantic HTML </li>
+            <li>Accessible HTML as well as accessible UI</li>
+            <li>Designing user-friendly layouts</li>
+            <li>Finding new ways to display different types of content</li>
+          </ul>
+        </article>
       </Layout>
     )
   }

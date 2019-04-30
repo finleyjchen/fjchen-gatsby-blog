@@ -24,13 +24,13 @@ class YourChristmasStore extends React.Component {
           title={'finley - ' + siteTitle}
         />
 
-        <a
-          href="https://yourchristmasstore.com"
-          className=" fr db tc center mt2 mt0-ns dib-ns f5 f3-ns link ba bw1 ph3 pv2 mb2 bg-black bg-animate white b--near-black hover-bg-white hover-near-black "
-        >
-          yourchristmasstore.com <IoIosLink />
-        </a>
         <article className="">
+          <a
+            href="https://yourchristmasstore.com"
+            className="w-100 w-auto-ns fr db tc center mt2 mt0-ns dib-ns f5 f3-ns link ba bw1 ph3 pv2 mb2 bg-black bg-animate white b--near-black hover-bg-white hover-near-black "
+          >
+            Visit YourChristmasStore <IoIosLink />
+          </a>
           <h1 className="f1-ns f3 lh-title">
             <a href="https://yourchristmasstore.com" className="link">
               YourChristmasStore
@@ -41,9 +41,9 @@ class YourChristmasStore extends React.Component {
             Diego Christmas store, Canterbury Gardens & Gifts.
           </p>
         </article>
-        <img src={ycsphoto} alt="" />
+        <img className="measure" src={ycsphoto} alt="" />
 
-        <article className="measure center">
+        <article className="measure">
           <h2>Migration</h2>
           <p className="lh-copy">
             When I first approached Dave with his website, Canterbury Gardens &
@@ -57,7 +57,7 @@ class YourChristmasStore extends React.Component {
           </p>
         </article>
 
-        <article className="measure center">
+        <article className="measure">
           <h2>Search Engines</h2>
           <p className="lh-copy">
             YourChristmasStore's main products are the Mark Roberts Collection.
@@ -67,7 +67,7 @@ class YourChristmasStore extends React.Component {
           </p>
         </article>
 
-        <article className="measure center">
+        <article className="measure">
           <h2>Email Marketing</h2>
           <p className="lh-copy">
             When users sign up for an account on YourChristmasStore, they opt-in

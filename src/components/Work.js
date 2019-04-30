@@ -72,25 +72,34 @@ const Work = () => (
         </Link>
       </div>
       <div className="pa1 w-100 pa3-ns w-50-ns fl">
-        <Link
-          to="/work/sct-usa"
+        <a
+          href="https://colonymedia.us"
           className="no-underline  grayscale shadow-hover bg-near-white hover-bg-white  flex items-center pa1 "
         >
+          {/* <Link
+          to="/work/sct-usa"
+          className="no-underline  grayscale shadow-hover bg-near-white hover-bg-white  flex items-center pa1 "
+        > */}
           <img className="w3 h3 w4-ns h4-ns" src={colonymedia} alt="" />
 
           <div className="pl3 flex-auto">
             <span className="f4 f3-ns mb2 db">Colony Media</span>
             <span className="f6 f5-ns fw4 dark-gray mt0 ">
-              Web Development, eCommerce
+              Contract, Freelance, WordPress
             </span>
           </div>
-        </Link>
+        </a>
+        {/* </Link> */}
       </div>
       <div className="pa1 w-100 pa3-ns w-50-ns fl">
-        <Link
-          to="/work/sct-usa"
+        <a
+          href="https://sctusa.com"
           className="no-underline  grayscale shadow-hover bg-near-white hover-bg-white  flex items-center pa1 "
         >
+          {/* <Link
+          to="/work/sct-usa"
+          className="no-underline  grayscale shadow-hover bg-near-white hover-bg-white  flex items-center pa1 "
+        > */}
           <img className="w3 h3 w4-ns h4-ns" src={scootlogo} alt="" />
 
           <div className="pl3 flex-auto">
@@ -99,22 +108,27 @@ const Work = () => (
               Web Development, eCommerce
             </span>
           </div>
-        </Link>
+        </a>
+        {/* </Link> */}
       </div>
       <div className="pa1 w-100 pa3-ns w-50-ns fl">
-        <Link
-          to="/work/lighthouse"
+        <a
+          href="https://lighthouseatascadero.org"
           className="no-underline  grayscale shadow-hover bg-near-white hover-bg-white  flex items-center pa1 "
         >
+          {/* <Link 
+          to="/work/lighthouse" className="no-underline grayscale shadow-hover
+          bg-near-white hover-bg-white flex items-center pa1 " >
+          */}
           <img className="w3 h3 w4-ns h4-ns" src={lighthouse} alt="" />
-
           <div className="pl3 flex-auto">
             <span className="f4 f3-ns mb2 db ">Lighthouse Atascadero</span>
             <span className="f6 f5-ns fw4 dark-gray mt0 ">
               Web Development, Migration, eCommerce
             </span>
           </div>
-        </Link>
+        </a>
+        {/* </Link> */}
       </div>
     </div>
 
