@@ -1,6 +1,7 @@
 import React from 'react'
 import { FiMapPin, FiServer } from 'react-icons/fi'
 import { IoMdHourglass } from 'react-icons/io'
+import { GiSpeedometer, GiEntryDoor, GiMagnifyingGlass } from 'react-icons/gi'
 import { Link } from 'gatsby'
 import ycslogo from '../assets/ycs-logo-square.png'
 import calpoly from '../assets/Cal-poly-work-min.png'
@@ -14,24 +15,32 @@ const Work = () => (
       Websites crafted for <em>growth</em>
     </h1>
     <div class="dt-ns dt--fixed-ns">
-      <div class="dtc-ns tc pv4">
-        <h2 className="f2 lh-title fw5">Speed</h2>
-        <p className="lh-copy f4">
+      <div class="dtc-ns tc ph3">
+        <span className="center">
+          <GiSpeedometer className="w3 h3" />
+        </span>
+        <h2 className="f3 lh-title fw5 mt0">Speed</h2>
+        <p className="lh-copy f5">
           Nobody should be losing their audience due to a slow website. All my
           sites prioritize an amazing user experience with fast, snappy,
           responsive user inputs.
         </p>
       </div>
-      <div class="dtc-ns tc pv4">
-        <h2 className="f2 lh-title fw5">Accessibility</h2>
-        <p className="lh-copy f4">
+      <div class="dtc-ns tc ph3">
+        <GiEntryDoor className="w3 h3" />
+
+        <h2 className="f3 lh-title fw5 mt0">Accessibility</h2>
+
+        <p className="lh-copy f5">
           Built mobile-first to be responsive and functional on most devices.
           Websites will be tested for WCAG 2.0 compliance.
         </p>
       </div>
-      <div class="dtc-ns tc pv4">
-        <h2 className="f2 lh-title fw5">Search Engines</h2>
-        <p className="lh-copy f4">
+      <div class="dtc-ns tc ph3">
+        <GiMagnifyingGlass className="w3 h3" />
+
+        <h2 className="f3 lh-title fw5 mt0">Search Engines</h2>
+        <p className="lh-copy f5">
           Search engine optimized from the ground up. Semantic html and rich
           snippet Schema.org markup means your website will be easily accessible
           to web crawlers.

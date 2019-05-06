@@ -4,6 +4,8 @@ import get from 'lodash/get'
 import Helmet from 'react-helmet'
 import { FiMapPin } from 'react-icons/fi'
 import { IoMdHourglass } from 'react-icons/io'
+import { FiArrowUpRight } from 'react-icons/fi'
+
 import Bio from '../../components/Bio'
 import Work from '../../components/Work'
 import Layout from '../../components/Layout'
@@ -20,18 +22,17 @@ class CalPoly extends React.Component {
         <Helmet
           htmlAttributes={{ lang: 'en' }}
           meta={[{ name: 'description', content: siteDescription }]}
-          title={'finley - ' + siteTitle}
+          title={'Finley Chen - ' + siteTitle}
         />
-        <a
-          href="https://afd.calpoly.edu"
-          className=" fr db tc center mt2 mt0-ns dib-ns f5 f3-ns link ba bw1 ph3 pv2 mb2 bg-black bg-animate white b--near-black hover-bg-white hover-near-black "
-        >
-          afd.calpoly.edu <IoIosLink />
-        </a>
+
         <article className="">
           <h1 className="f1-ns f3 lh-title">
-            <a href="https://yourchristmasstore.com" className="link">
-              California Polytechnic State University
+            <a
+              href="https://afd.calpoly.edu"
+              className="link hover-bg-black hover-white"
+            >
+              California Polytechnic State University{' '}
+              <FiArrowUpRight className="dib" />
             </a>
           </h1>
 

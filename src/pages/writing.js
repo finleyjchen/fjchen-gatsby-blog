@@ -8,11 +8,9 @@ import Layout from '../components/Layout'
 import '../assets/index.css'
 class Writing extends React.Component {
   render() {
-    const siteTitle = 'Finley Chen'
-    const siteDescription = get(
-      this,
-      'props.data.site.siteMetadata.description'
-    )
+    const siteTitle = 'Writing'
+    const siteDescription =
+      'A collection of blog posts and personal archives for Finley Chen'
     const posts = get(this, 'props.data.allMarkdownRemark.edges')
 
     return (
@@ -20,7 +18,7 @@ class Writing extends React.Component {
         <Helmet
           htmlAttributes={{ lang: 'en' }}
           meta={[{ name: 'description', content: siteDescription }]}
-          title={'finley - ' + siteTitle}
+          title={'Finley Chen - ' + siteTitle}
         />
         <h1 className="fw5 f1-ns f2 fh-title tc">Writing</h1>
         <div className="measure-wide center">

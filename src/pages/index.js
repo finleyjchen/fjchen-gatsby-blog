@@ -13,10 +13,8 @@ import SocialLinks from '../components/SocialLinks'
 class Index extends React.Component {
   render() {
     const siteTitle = 'Finley Chen'
-    const siteDescription = get(
-      this,
-      'props.data.site.siteMetadata.description'
-    )
+    const siteDescription =
+      'Freelance web developer in San Luis Obispo specializing in WordPress and eCommerce.'
     const posts = get(this, 'props.data.allMarkdownRemark.edges')
 
     return (
@@ -26,14 +24,14 @@ class Index extends React.Component {
           meta={[{ name: 'description', content: siteDescription }]}
           title={'Finley Chen | WordPress Developer'}
         />
-        <div className="mv5 cf">
+        <div className="mv5-ns cf">
           <div className="fl w-100 w-50-ns  ">
-            <p className="f1 f1-ns fw5 lh-headline mb0">
+            <h1 className="f1 f1-ns fw5 lh-headline mb0">
               WordPress Design & Development
-            </p>
-            <p className="f4 f2-ns lh-headline fw3 mt0 mb3 gray">
+            </h1>
+            <h2 className="f4 f2-ns lh-headline fw3 mt0 mb3 gray">
               Speed, accessibility, and SEO.
-            </p>
+            </h2>
 
             <p className="f4 measure lh-copy mb4">
               Hi there, my name is Finley. I’m a freelance web developer who

@@ -4,6 +4,7 @@ import get from 'lodash/get'
 import Helmet from 'react-helmet'
 import { FiMapPin } from 'react-icons/fi'
 import { IoMdHourglass, IoIosLink } from 'react-icons/io'
+import { FiArrowUpRight } from 'react-icons/fi'
 import Bio from '../../components/Bio'
 import Work from '../../components/Work'
 import Layout from '../../components/Layout'
@@ -21,19 +22,16 @@ class YourChristmasStore extends React.Component {
         <Helmet
           htmlAttributes={{ lang: 'en' }}
           meta={[{ name: 'description', content: siteDescription }]}
-          title={'finley - ' + siteTitle}
+          title={'Finley Chen - ' + siteTitle}
         />
 
         <article className="">
-          <a
-            href="https://yourchristmasstore.com"
-            className="w-100 w-auto-ns fr db tc center mt2 mt0-ns dib-ns f5 f3-ns link ba bw1 ph3 pv2 mb2 bg-black bg-animate white b--near-black hover-bg-white hover-near-black "
-          >
-            Visit YourChristmasStore <IoIosLink />
-          </a>
           <h1 className="f1-ns f3 lh-title">
-            <a href="https://yourchristmasstore.com" className="link">
-              YourChristmasStore
+            <a
+              href="https://yourchristmasstore.com"
+              className="link hover-bg-black hover-white"
+            >
+              YourChristmasStore <FiArrowUpRight className="dib" />
             </a>
           </h1>
           <p className="f3 measure">

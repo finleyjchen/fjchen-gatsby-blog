@@ -9,7 +9,7 @@ import {
   IoLogoLinkedin,
 } from 'react-icons/io'
 const SocialLinks = () => (
-  <div className="social-links mb4 f2 tc tl-ns">
+  <div className="social-links mb4 f2 ">
     <a className="mh2 mr3-l ml0-l dim link" href="mailto:finleyjchen@gmail.com">
       <IoIosMail />
     </a>

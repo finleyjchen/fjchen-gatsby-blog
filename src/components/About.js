@@ -10,13 +10,15 @@ const About = () => (
       <p className="f7 ma0 i">Finley and his Dad, 2001</p>
     </div>
     <p className="lh-copy f4">
-      Aside from being a web developer, I am a student at California Polytechnic
-      State University studying political science.
+      I taught myself how to develop websites for local businesses and family
+      friends in high school. Since then, I've been honing my skills in both
+      design and code to create quality, bespoke websites.
     </p>
     <p className="lh-copy f4">
-      Things like social choice theory and political philosophy greatly interest
-      me. It's a goal of mine to find a way to bridge my interests in a
-      fulfilling project.
+      Aside from being a web developer, I am a student at California Polytechnic
+      State University studying political science. I'm interested in social
+      choice thoery and political philosophy. It's a goal of mine to find a way
+      to somehow bridge my interests in a fulfilling project.
     </p>
 
     <p className="lh-copy f4">
@@ -51,9 +53,6 @@ const About = () => (
       When I'm not developing I enjoy playing video games, eating ramen,
       writing, spending time with my girlfriend, and studying.
     </p> */}
-    <p>
-      <Link to={'/uses'}>Uses</Link>
-    </p>
   </div>
 )
 

@@ -27,7 +27,7 @@ class Menu extends React.Component {
   render() {
     return (
       <Fragment>
-        <nav className="fixed static-ns dt top-0 w-100 center border-box pv3 ph3 ph0-l bg-white shadow-2-s">
+        <nav className="fixed static-ns dt top-0 w-100 center border-box pv3 ph3 ph0-l bg-white shadow-2-s z-max">
           <Link
             to={'/'}
             className="dtc b v-mid link dim w-40  tl mb2 mb0-ns f3"
@@ -43,27 +43,27 @@ class Menu extends React.Component {
             <Link
               className="pa2 link dim dark-gray tr tl-ns f3 f5-ns db dib-ns mr3 mr4-ns bb-hover"
               to={'/work'}
-              activeClassName="bb-ns b--black-50 bw1"
+              activeClassName="bb-ns b--dark-gray bw1-ns"
             >
               Work
             </Link>
             <Link
               className="pa2 link dim dark-gray tr tl-ns f3 f5-ns db dib-ns mr3 mr4-ns bb-hover"
               to={'/writing'}
-              activeClassName="bb-ns b--black-50 bw1"
+              activeClassName="bb-ns b--dark-gray bw1-ns"
             >
               Writing
             </Link>
             <Link
               className="pa2 link dim dark-gray tr tl-ns f3 f5-ns db dib-ns mr3 mr4-ns bb-hover"
               to={'/about'}
-              activeClassName="bb-ns b--black-50 bw1"
+              activeClassName="bb-ns b--dark-gray bw1-ns"
             >
               About
             </Link>
             <Link
               to={'/contact'}
-              activeClassName="bb-ns b--black-50 bw1"
+              activeClassName="bb-ns b--dark-gray "
               className="db mw5 tc center mt2 mt0-ns dib-ns f f5-ns link ba bw1  pa2  bg-black bg-animate white b--near-black hover-bg-white hover-near-black "
             >
               Contact Me

@@ -19,7 +19,7 @@ class Lighthouse extends React.Component {
         <Helmet
           htmlAttributes={{ lang: 'en' }}
           meta={[{ name: 'description', content: siteDescription }]}
-          title={'finley - ' + siteTitle}
+          title={'Finley Chen - ' + siteTitle}
         />
         <h1 className="f1-ns f3 lh-title">Lighthouse</h1>
         <div className="post">
