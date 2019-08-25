@@ -2,8 +2,9 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import axios from 'axios'
-import { IoIosHeart, IoMdMenu, IoMdGlasses } from 'react-icons/io'
+import { IoMdMenu, IoMdGlasses } from 'react-icons/io'
 import Menu from '../components/Menu'
+import Footer from '../components/Footer'
 class Layout extends React.Component {
   constructor(props) {
     super(props)
@@ -80,7 +81,7 @@ class Layout extends React.Component {
 
     return (
       <div className="wrap min-vh-100" style={this.state.divStyle}>
-        <div className="mw8 center">
+        <div className="center">
           {header}
           <div
             className={`ph3 top-margin mt0-ns pa0-l fade-in ${didMount &&
@@ -88,15 +89,7 @@ class Layout extends React.Component {
           >
             {children}
           </div>
-          <div className="footer mv4 cf pa3 pa0-ns">
-            <small className="db mb2 fl-ns">&copy; Finley Chen</small>
-
-            <small className="db fr-ns">
-              Crafted with <a href="https://www.gatsbyjs.org/">Gatsby</a> and{' '}
-              <a href="http://tachyons.io">Tachyons</a> with <IoIosHeart /> in
-              San Luis Obispo
-            </small>
-          </div>
+          <Footer />
         </div>
       </div>
     )

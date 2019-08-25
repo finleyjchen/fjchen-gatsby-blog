@@ -27,47 +27,55 @@ class Menu extends React.Component {
   render() {
     return (
       <Fragment>
-        <nav className="fixed static-ns dt top-0 w-100 center border-box pv3 ph3 ph0-l bg-white shadow-2-s z-max">
+        <nav className="fixed static-ns dt top-0 w-100 center border-box pv3 ph3 ph5-l shadow-2-s z-max bb b--black-10 topography">
           <Link
             to={'/'}
-            className="dtc b v-mid link dim w-40  tl mb2 mb0-ns f3"
+            className="dtc w3 b v-mid near-black outline ph3 link dim f3 logo  buttonOverlay"
           >
-            Finley Chen
+            FC
           </Link>
           <ul
             id="menu"
             className={`pl0 static-ns absolute mt5 mt0-ns ${
               this.state.menuOpen ? 'menuIsOpen' : 'menuClosed'
-            } db dtc-ns v-mid w-50 w-100-ns w-75-ns h-80 tr  bg-white z-max`}
+            } db dtc-ns v-mid tr w-40 w-100-ns z-max list`}
           >
-            <Link
-              className="pa2 link dim dark-gray tr tl-ns f3 f5-ns db dib-ns mr3 mr4-ns bb-hover"
-              to={'/work'}
-              activeClassName="bb-ns b--dark-gray bw1-ns"
-            >
-              Work
-            </Link>
-            <Link
-              className="pa2 link dim dark-gray tr tl-ns f3 f5-ns db dib-ns mr3 mr4-ns bb-hover"
-              to={'/writing'}
-              activeClassName="bb-ns b--dark-gray bw1-ns"
-            >
-              Writing
-            </Link>
-            <Link
-              className="pa2 link dim dark-gray tr tl-ns f3 f5-ns db dib-ns mr3 mr4-ns bb-hover"
-              to={'/about'}
-              activeClassName="bb-ns b--dark-gray bw1-ns"
-            >
-              About
-            </Link>
-            <Link
-              to={'/contact'}
-              activeClassName="bb-ns b--dark-gray "
-              className="db mw5 tc center mt2 mt0-ns dib-ns f f5-ns link ba bw1  pa2  bg-black bg-animate white b--near-black hover-bg-white hover-near-black "
-            >
-              Contact Me
-            </Link>
+            <li className="db dib-ns">
+              <Link
+                className="pa3 link dim dark-gray f3 f5-ns mr4-ns bb-hover db tr"
+                to={'/about'}
+                activeClassName="o-80 bg-near-black white"
+              >
+                About
+              </Link>
+            </li>
+            <li className="db dib-ns">
+              <Link
+                className="pa3 link dim dark-gray f3 f5-ns mr4-ns bb-hover db tr"
+                to={'/work'}
+                activeClassName="o-80 bg-near-black white"
+              >
+                Work
+              </Link>
+            </li>
+            <li className="db dib-ns">
+              <Link
+                className="pa3 link dim dark-gray f3 f5-ns mr4-ns bb-hover db tr"
+                to={'/writing'}
+                activeClassName="o-80 bg-near-black white"
+              >
+                Writing
+              </Link>
+            </li>
+            <li className="db dib-ns">
+              <Link
+                to={'/contact'}
+                activeClassName="o-80 bg-near-black white"
+                className="pa3 link dim dark-gray f3 f5-ns mr4-ns bb-hover db tr"
+              >
+                Contact Me
+              </Link>
+            </li>
             {/* <a href="#" className="link" onClick={this.randomColorClick}>
             <IoMdMenu />
           </a> */}

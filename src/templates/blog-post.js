@@ -4,6 +4,7 @@ import { Link, graphql } from 'gatsby'
 import get from 'lodash/get'
 import Bio from '../components/Bio'
 import Layout from '../components/Layout'
+import { FiSkipBack, FiSkipForward } from 'react-icons/fi'
 import '../assets/index.css'
 
 class BlogPostTemplate extends React.Component {
@@ -38,22 +39,24 @@ class BlogPostTemplate extends React.Component {
         <div className="dotted-line" />
         <Bio />
 
-        <ul className="flex justify-between ">
-          <li className="db">
+        <ul className="flex justify-between mw7 center pa0">
+          <li className="db w-50 tl ">
             {previous && (
               <Link
                 to={previous.fields.slug}
                 className="next-post-link"
                 rel="prev"
               >
-                ← {previous.frontmatter.title}
+                <FiSkipBack className="db w-10 fl" />
+                <span className="db fr w-90">{previous.frontmatter.title}</span>
               </Link>
             )}
           </li>
-          <li className="db">
+          <li className="db w-50 tr">
             {next && (
               <Link to={next.fields.slug} className="next-post-link" rel="next">
-                {next.frontmatter.title} →
+                <FiSkipForward className="db w-10 fr" />
+                <span className="db fr w-90">{next.frontmatter.title}</span>
               </Link>
             )}
           </li>

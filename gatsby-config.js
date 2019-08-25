@@ -63,7 +63,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Finley Chen's blog`,
+        name: `Finley Chen Web Development`,
         short_name: `fjchen.net`,
         start_url: `/`,
         background_color: `#ffffff`,
