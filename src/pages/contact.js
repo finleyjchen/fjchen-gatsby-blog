@@ -109,7 +109,7 @@ export default class Contact extends React.Component {
             </label>
           </p>
           <p>
-            <button type="submit" className="px-5 py-3 border-gray-800 border-2 bg-gray-800 text-pink-200 hover:text-pink-300 hover:bg-gray-700 shadow-md hover:shadow-lg rise block max-w-xs">Send</button>
+            <button type="submit" className="px-4 py-2 border-gray-800 border-2 bg-gray-800 text-pink-200 hover:text-pink-300 hover:bg-gray-700 shadow-md hover:shadow-lg rise block max-w-xs">Send</button>
           </p>
         </form>
       </Layout>

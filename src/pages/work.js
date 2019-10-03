@@ -38,28 +38,24 @@ class WorkPage extends React.Component {
         <p className="text-lg md:text-3xl max-w-2xl">I’m a freelance web developer who specializes in WordPress, WooCommerce and Shopify. </p>
 
 
-<div className="p-5 md:p-20"></div>
-            <div className="flex flex-col md:flex-row items-center">
+<div className="p-5 md:p-20 "></div>
+            <div className=" leading-relaxed flex flex-col md:flex-row ">
 
-            <div className="md:w-1/3">
+            <div className="md:w-1/3 md:px-2">
 
-            <h2 className="text-lg mb-1">Static Websites</h2>
-            <p className="lh-copy f5">
-              Nobody should be losing their audience due to a slow website. All
-              my sites prioritize an amazing user experience with fast, snappy,
-              responsive user inputs.
+            <h2 className="text-lg mb-1">WordPress Design &amp; Development</h2>
+            <p>
+              I can offer WordPress services in <strong>maintenance</strong>, <strong>design</strong>, and <strong>development</strong>. Need a custom plugin? Fix your broken site? Need maintenance and updates? I can help.
             </p>
-            <h2 className="text-lg mb-1">Search Engines</h2>
+            <h2 className="text-lg mb-1">eCommerce</h2>
             <p className="lh-copy f5">
-              Search engine optimized from the ground up. Semantic html and rich
-              snippet Schema.org markup means your website will be easily
-              accessible to web crawlers.
+              I build and manage small to medium sized eCommerce sites. I work both WooCommerce and Shopify. Previously, I have worked in Magento. I can help you decide which is best for you.
             </p>
             </div>
    
-            <div className="md:w-1/3">
+            <div className="md:w-1/3 md:px-2">
 
-            <h2 className="text-lg mb-1">Speed &amp; Accessibility</h2>
+            <h2 className="text-lg mb-1">Speed, Accessibility, SEO</h2>
             <p>
             Nobody should be losing their audience due to a slow website. All
               my sites prioritize an amazing user experience with fast, snappy,
@@ -69,11 +65,14 @@ class WorkPage extends React.Component {
               Built mobile-first to be responsive and functional on most
               devices. Websites will be tested for WCAG 2.0 compliance.
             </p>
+            <p className="lh-copy f5">
+              Semantic html and rich snippet Schema.org markup means your website will be easily accessible to web crawlers.
+            </p>
             </div>
-            <div className="md:w-1/3">
+            <div className="md:w-1/3 md:px-2 flex items-center">
               <Link
                 to="/contact"
-                className="mx-5 px-5 py-3 border-gray-800 border-2 bg-gray-800 text-pink-200 hover:text-pink-300 hover:bg-gray-700 text-xl md:text-2xl shadow-md hover:shadow-lg rise block max-w-xs" >
+                className="mx-auto my-10 px-5 py-3 border-gray-800 border-2 bg-gray-800 text-pink-200 hover:text-pink-300 hover:bg-gray-700 text-xl md:text-2xl shadow-lg hover:shadow-xl rise block max-w-xs" >
                   Get in touch with me &rarr;
                 </Link>
             </div>
@@ -86,7 +85,7 @@ class WorkPage extends React.Component {
           <div className="w-full sm:w-1/2 mx-10 md:w-1/4 sm:mx-0 px-2 rise mb-5">
             <Link
               to="/work/your-christmas-store"
-              className="block shadow-md hover:shadow-lg bg-near-white hover-bg-white"
+              className="block shadow-lg hover:shadow-xl bg-near-white hover-bg-white"
               >
               <img className="px-2 h-40 w-full object-cover" src={ycslogo} alt="" />
 
@@ -98,7 +97,7 @@ class WorkPage extends React.Component {
           <div className="w-full sm:w-1/2 mx-10 md:w-1/4 sm:mx-0 px-2 rise mb-5">
             <Link
               to="/work/cal-poly"
-              className="block shadow-md hover:shadow-lg bg-near-white hover-bg-white"
+              className="block shadow-lg hover:shadow-xl bg-near-white hover-bg-white"
               >
 <CPLogo className="px-2 h-40 w-full object-cover"/>
 
@@ -111,11 +110,11 @@ class WorkPage extends React.Component {
           <div className="w-full sm:w-1/2 mx-10 md:w-1/4 sm:mx-0 px-2 rise mb-5">
             <a
               href="https://colonymedia.us"
-              className="block shadow-md hover:shadow-lg bg-near-white hover-bg-white"
+              className="block shadow-lg hover:shadow-xl bg-near-white hover-bg-white"
               >
               {/* <Link
           to="/work/sct-usa"
-          className="block shadow-md hover:shadow-lg bg-near-white hover-bg-white"
+          className="block shadow-lg hover:shadow-xl bg-near-white hover-bg-white"
         > */}
               <img className="px-2 h-40 w-full object-cover" src={colonymedia} alt="" />
 
@@ -128,11 +127,11 @@ class WorkPage extends React.Component {
           <div className="w-full sm:w-1/2 mx-10 md:w-1/4 sm:mx-0 px-2 rise mb-5">
             <a
               href="https://sctusa.com"
-              className="block shadow-md hover:shadow-lg bg-near-white hover-bg-white"
+              className="block shadow-lg hover:shadow-xl bg-near-white hover-bg-white"
               >
               {/* <Link
           to="/work/sct-usa"
-          className="block shadow-md hover:shadow-lg bg-near-white hover-bg-white"
+          className="block shadow-lg hover:shadow-xl bg-near-white hover-bg-white"
         > */}
               <img className="px-2 h-40 w-full object-cover" src={scootlogo} alt="" />
 
@@ -145,10 +144,10 @@ class WorkPage extends React.Component {
           <div className="w-full sm:w-1/2 mx-10 md:w-1/4 sm:mx-0 px-2 rise mb-5">
             <a
               href="https://lighthouseatascadero.org"
-              className="block shadow-md hover:shadow-lg bg-near-white hover-bg-white"
+              className="block shadow-lg hover:shadow-xl bg-near-white hover-bg-white"
               >
               {/* <Link 
-          to="/work/lighthouse" className=block shadow-md hover:shadow-lg
+          to="/work/lighthouse" className=block shadow-lg hover:shadow-xl
           bg-near-white hover-bg-whit" >
         */}
               <img className="px-2 h-40 w-full object-cover" src={lighthouse} alt="" />
