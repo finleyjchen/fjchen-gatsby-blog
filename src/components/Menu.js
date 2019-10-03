@@ -1,6 +1,7 @@
 import React, { useState, Fragment } from 'react'
 import { Link } from 'gatsby'
 import { IoMdMenu } from 'react-icons/io'
+
 class Menu extends React.Component {
   constructor(props) {
     super(props)
@@ -8,6 +9,8 @@ class Menu extends React.Component {
     this.state = {
       menuOpen: false,
     }
+
+
     this.menuToggle = this.menuToggle.bind(this)
     // this.randomColorClick = this.randomColorClick.bind(this)
   }
@@ -26,52 +29,56 @@ class Menu extends React.Component {
   }
   render() {
     return (
-      <Fragment>
-        <nav className="fixed static-ns dt top-0 w-100 center border-box pv3 ph3 ph5-l shadow-2-s z-max bb b--black-10 topography">
+      <header className="w-full bg-gray-800 border-pink-200 border-b-2">
+        <nav className=" bg-gray-800 container mx-auto flex flex-col text-center content-center sm:flex-row sm:text-left sm:justify-between py-2 px-3 md:px-6 bg-white shadow sm:items-baseline w-full">
+          <div className="text-left mb-2 sm:mb-0 inner">
+
           <Link
             to={'/'}
-            className="dtc w3 b v-mid near-black outline ph3 link dim f3 logo  buttonOverlay"
-          >
-            FC
+            className="  text-2xl no-underline hover:text-blue-dark text-pink-200 hover:text-white font-bold"
+            >
+            Finley Chen
+            <span className="block text-sm font-medium">Frontend Web Developer<em></em></span>
           </Link>
+            </div>
           <ul
             id="menu"
-            className={`pl0 static-ns absolute mt5 mt0-ns ${
+            className={`sm:mb-0 self-center text-lg ${
               this.state.menuOpen ? 'menuIsOpen' : 'menuClosed'
-            } db dtc-ns v-mid tr w-40 w-100-ns z-max list`}
+            } `}
           >
-            <li className="db dib-ns">
+            <li className="inline-block mt-1 mr-3 md:mt-4 md:mr-4 lg:inline-block lg:mt-0">
               <Link
-                className="pa3 link dim dark-gray f3 f5-ns mr4-ns bb-hover db tr"
+                className="text-pink-200 hover:text-white"
                 to={'/about'}
-                activeClassName="o-80 bg-near-black white"
+                activeClassName="font-bold text-white"
               >
                 About
               </Link>
             </li>
-            <li className="db dib-ns">
+            <li className="inline-block mt-1 mr-3 md:mt-4 md:mr-4 lg:inline-block lg:mt-0">
               <Link
-                className="pa3 link dim dark-gray f3 f5-ns mr4-ns bb-hover db tr"
+                className="text-pink-200 hover:text-white"
                 to={'/work'}
-                activeClassName="o-80 bg-near-black white"
+                activeClassName="font-bold text-white"
               >
                 Work
               </Link>
             </li>
-            <li className="db dib-ns">
+            <li className="inline-block mt-1 mr-3 md:mt-4 md:mr-4 lg:inline-block lg:mt-0">
               <Link
-                className="pa3 link dim dark-gray f3 f5-ns mr4-ns bb-hover db tr"
+                className="text-pink-200 hover:text-white"
                 to={'/writing'}
-                activeClassName="o-80 bg-near-black white"
+                activeClassName="font-bold text-white"
               >
                 Writing
               </Link>
             </li>
-            <li className="db dib-ns">
+            <li className="inline-block mt-1 mr-3 md:mt-4 md:mr-4 lg:inline-block lg:mt-0">
               <Link
                 to={'/contact'}
-                activeClassName="o-80 bg-near-black white"
-                className="pa3 link dim dark-gray f3 f5-ns mr4-ns bb-hover db tr"
+                activeClassName="font-bold text-white"
+                className="text-pink-200 hover:text-white"
               >
                 Contact Me
               </Link>
@@ -80,7 +87,7 @@ class Menu extends React.Component {
             <IoMdMenu />
           </a> */}
           </ul>
-          <a
+          {/* <a
             href="#"
             id="menu-btn"
             onClick={this.menuToggle}
@@ -91,9 +98,9 @@ class Menu extends React.Component {
             ) : (
               <IoMdMenu size="2em" />
             )}
-          </a>
+          </a> */}
         </nav>
-      </Fragment>
+      </header>
     )
   }
 }

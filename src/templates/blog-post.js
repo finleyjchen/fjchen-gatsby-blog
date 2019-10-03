@@ -26,9 +26,9 @@ class BlogPostTemplate extends React.Component {
           title={`${post.frontmatter.title} | ${siteTitle}`}
         />
 
-        <div className="mw7 center">
-          <p className="lh-title mv0 tc ttu tracked">{post.frontmatter.date}</p>
-          <h1 className="fw5 f1-ns f2 fh-title tc mt0">
+        <div className="max-w-xl blog-post">
+          <p className="text-sm">{post.frontmatter.date}</p>
+          <h1 className="text-xl mb-4">
             {post.frontmatter.title}
           </h1>
           <div

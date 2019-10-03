@@ -2,7 +2,6 @@ import React from 'react'
 import { Link, graphql } from 'gatsby'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
-
 import Bio from '../components/Bio'
 import Layout from '../components/Layout'
 import '../assets/index.css'
@@ -20,18 +19,18 @@ class Writing extends React.Component {
           meta={[{ name: 'description', content: siteDescription }]}
           title={'Finley Chen - ' + siteTitle}
         />
-        <h1 className="fw5 f1-ns f2 fh-title tc">Writing</h1>
+        <h1 className="text-2xl md:text-6xl font-bold my-10 md:my-20">Writing</h1>
         <div className="measure-wide center">
           {posts.map(({ node }) => {
             const title = get(node, 'frontmatter.title') || node.fields.slug
             return (
-              <div className="post mv4" key={node.fields.slug}>
+              <div className="post my-4" key={node.fields.slug}>
                 <Link
-                  className="db post-link link dim b f3 f3-ns fw5"
+                  className=" font-medium text-lg md:text-xl hover:text-gray-600"
                   to={node.fields.slug}
                 >
                   {title}
-                  <small className="f6 db pt1 ttu tracked fw7 gray">
+                  <small className="block">
                     {node.frontmatter.date}
                   </small>
                 </Link>

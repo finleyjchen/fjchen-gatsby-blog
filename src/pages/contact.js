@@ -47,37 +47,38 @@ export default class Contact extends React.Component {
           meta={[{ name: 'description', content: siteDescription }]}
           title={'Finley Chen - ' + siteTitle}
         />
-        <h1 className="fw5 f1-ns f2 fh-title tc">Contact Me</h1>
+        <h1 className="text-2xl md:text-6xl font-bold my-10 md:my-20">Contact Me</h1>
         <p className="f5 f4-ns lh-title tc">
           I'm interested in what you have to say.
         </p>
+        <p><a href="mailto:finleyjchen@gmail.com">finleyjchen@gmail.com</a></p>
         <form
           name="contact"
           method="post"
           action="/thanks/"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
-          className="center measure"
+          className="w-full max-w-sm"
           onSubmit={this.handleSubmit}
         >
           {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
           <input type="hidden" name="form-name" value="contact" />
           <p hidden>
-            <label className="db fw4 lh-copy f6">
+            <label className="block text-gray-700 text-sm font-bold mb-2">
               Don’t fill this out:{' '}
               <input
-                className="pa2 input-reset ba bg-transparent w-100"
+                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 name="bot-field"
                 onChange={this.handleChange}
               />
             </label>
           </p>
           <p>
-            <label className="db fw4 lh-copy f6">
+            <label className="block text-gray-700 text-sm font-bold mb-2">
               Your name:
               <br />
               <input
-                className="pa2 input-reset ba bg-transparent w-100"
+                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 type="text"
                 name="name"
                 onChange={this.handleChange}
@@ -85,11 +86,11 @@ export default class Contact extends React.Component {
             </label>
           </p>
           <p>
-            <label className="db fw4 lh-copy f6">
+            <label className="block text-gray-700 text-sm font-bold mb-2">
               Your email:
               <br />
               <input
-                className="pa2 input-reset ba bg-transparent w-100"
+                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 type="email"
                 name="email"
                 onChange={this.handleChange}
@@ -97,18 +98,18 @@ export default class Contact extends React.Component {
             </label>
           </p>
           <p>
-            <label className="db fw4 lh-copy f6">
+            <label className="block text-gray-700 text-sm font-bold mb-2">
               Message:
               <br />
               <textarea
-                className="pa2 input-reset ba bg-transparent w-100"
+                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 name="message"
                 onChange={this.handleChange}
               />
             </label>
           </p>
           <p>
-            <button type="submit">Send</button>
+            <button type="submit" className="px-5 py-3 border-gray-800 border-2 bg-gray-800 text-pink-200 hover:text-pink-300 hover:bg-gray-700 shadow-md hover:shadow-lg rise block max-w-xs">Send</button>
           </p>
         </form>
       </Layout>

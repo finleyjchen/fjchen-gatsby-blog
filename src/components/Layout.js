@@ -5,6 +5,7 @@ import axios from 'axios'
 import { IoMdMenu, IoMdGlasses } from 'react-icons/io'
 import Menu from '../components/Menu'
 import Footer from '../components/Footer'
+import Fade from 'react-reveal/Fade'
 class Layout extends React.Component {
   constructor(props) {
     super(props)
@@ -50,6 +51,7 @@ class Layout extends React.Component {
     //     this.setState(newState)
     //   })
     //   .catch(error => console.log(error))
+    
   }
 
   componentWillUnmount() {
@@ -80,18 +82,20 @@ class Layout extends React.Component {
     header = <Menu />
 
     return (
-      <div className="wrap min-vh-100" style={this.state.divStyle}>
-        <div className="center">
+      <div className="">
+
+      <div className="wrap" style={this.state.divStyle}>
           {header}
-          <div
-            className={`ph3 top-margin mt0-ns pa0-l fade-in ${didMount &&
-              'visible'}`}
-          >
+          <Fade>
+          <main
+            className={`  container mx-auto p-3 md:p-6 `}
+              >
             {children}
-          </div>
+          </main>
           <Footer />
-        </div>
+          </Fade>
       </div>
+              </div>
     )
   }
 }

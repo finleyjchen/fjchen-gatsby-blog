@@ -1,11 +1,23 @@
+@tailwind base; /* Preflight will be injected here */
+
+@tailwind components;
+
+@tailwind utilities;
+@import url("https://rsms.me/inter/inter.css");
 @import url("https://use.typekit.net/mxb5eoq.css");
 
 html {
-  font-family: ibm-plex-mono, sans-serif;
-  font-family: neue-haas-unica, sans-serif;
-
+    font-family: neue-haas-unica, sans-serif;
+    font-family: "Inter", sans-serif;
+    font-family: sofia-pro, sans-serif;
+    font-family: soleil, sans-serif;
+    font-family: pragmatica, sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: pragmatica, sans-serif;
+    font-weight:700;
+}
 
 html {
   // font-family: 'lunchtype22regular', sans-serif;
@@ -52,6 +64,30 @@ a {
 
 .shadow-hover:after {
   box-shadow: 0 0 16px 2px rgba(0, 0, 0, 0.07) !important;
+}
+
+.gatsby-highlight {
+    font-size:0.7em;
+}
+
+p {
+    margin-bottom:1em;
+}
+
+a {
+    color: #2d3748;	
+    transition: all 0.15s ease-out;
+    
+}
+footer, .blog-post {
+    a {
+
+        border-bottom: 0.5px solid #2d3748;
+        &:hover {
+            color: #fed7e2;	
+            background-color: #2d3748;
+        }
+    }
 }
 
 @keyframes appear {
@@ -130,6 +166,13 @@ a {
 
 .top-margin {
   margin-top: 6em;
+}
+            .rise {
+    transition: all .3s
+}
+
+.rise:hover {
+    transform: translate3d(0,-.1rem,0)
 }
 .logo {
   &:hover {

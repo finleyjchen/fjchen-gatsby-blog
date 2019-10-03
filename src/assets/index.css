@@ -1,7 +1,20 @@
+@import url("https://rsms.me/inter/inter.css");
 @import url("https://use.typekit.net/mxb5eoq.css");
+@tailwind base;
+/* Preflight will be injected here */
+@tailwind components;
+@tailwind utilities;
 html {
-  font-family: ibm-plex-mono, sans-serif;
   font-family: neue-haas-unica, sans-serif;
+  font-family: "Inter", sans-serif;
+  font-family: sofia-pro, sans-serif;
+  font-family: soleil, sans-serif;
+  font-family: pragmatica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: pragmatica, sans-serif;
+  font-weight: 700;
 }
 
 html {
@@ -57,6 +70,29 @@ a {
 .shadow-hover:after {
   -webkit-box-shadow: 0 0 16px 2px rgba(0, 0, 0, 0.07) !important;
           box-shadow: 0 0 16px 2px rgba(0, 0, 0, 0.07) !important;
+}
+
+.gatsby-highlight {
+  font-size: 0.7em;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+a {
+  color: #2d3748;
+  -webkit-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+
+footer a, .blog-post a {
+  border-bottom: 0.5px solid #2d3748;
+}
+
+footer a:hover, .blog-post a:hover {
+  color: #fed7e2;
+  background-color: #2d3748;
 }
 
 @-webkit-keyframes appear {
@@ -168,6 +204,16 @@ a {
 
 .top-margin {
   margin-top: 6em;
+}
+
+.rise {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.rise:hover {
+  -webkit-transform: translate3d(0, -0.1rem, 0);
+          transform: translate3d(0, -0.1rem, 0);
 }
 
 .logo:hover {
