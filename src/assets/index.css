@@ -86,11 +86,11 @@ a {
   transition: all 0.15s ease-out;
 }
 
-footer a, .blog-post a {
+.footer-links a, .blog-post a {
   border-bottom: 0.5px solid #2d3748;
 }
 
-footer a:hover, .blog-post a:hover {
+.footer-links a:hover, .blog-post a:hover {
   color: #fed7e2;
   background-color: #2d3748;
 }
