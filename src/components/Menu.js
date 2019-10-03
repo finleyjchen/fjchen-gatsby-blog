@@ -49,7 +49,7 @@ class Menu extends React.Component {
           >
             <li className="inline-block mt-1 mr-3 md:mt-4 md:mr-4 lg:inline-block lg:mt-0">
               <Link
-                className="text-pink-200 hover:text-white"
+                className="text-blue-200 hover:text-white"
                 to={'/about'}
                 activeClassName="font-bold text-white"
               >
@@ -58,7 +58,7 @@ class Menu extends React.Component {
             </li>
             <li className="inline-block mt-1 mr-3 md:mt-4 md:mr-4 lg:inline-block lg:mt-0">
               <Link
-                className="text-pink-200 hover:text-white"
+                className="text-blue-200 hover:text-white"
                 to={'/work'}
                 activeClassName="font-bold text-white"
               >
@@ -67,7 +67,7 @@ class Menu extends React.Component {
             </li>
             <li className="inline-block mt-1 mr-3 md:mt-4 md:mr-4 lg:inline-block lg:mt-0">
               <Link
-                className="text-pink-200 hover:text-white"
+                className="text-blue-200 hover:text-white"
                 to={'/writing'}
                 activeClassName="font-bold text-white"
               >
@@ -78,7 +78,7 @@ class Menu extends React.Component {
               <Link
                 to={'/contact'}
                 activeClassName="font-bold text-white"
-                className="text-pink-200 hover:text-white"
+                className="text-blue-200 hover:text-white"
               >
                 Contact Me
               </Link>
