@@ -45,7 +45,7 @@ class WorkPage extends React.Component {
 
             <h2 className="text-lg mb-1">WordPress Design &amp; Development</h2>
             <p>
-              I can offer WordPress services in <strong>maintenance</strong>, <strong>design</strong>, and <strong>development</strong>. Need a custom plugin? Fix your broken site? Need maintenance and updates? I can help.
+              I offer WordPress services in <strong>maintenance</strong>, <strong>design</strong>, and <strong>development</strong>. Need a custom plugin? Broken site with errors? Need maintenance and updates? I can help.
             </p>
             <h2 className="text-lg mb-1">eCommerce</h2>
             <p className="lh-copy f5">
@@ -63,7 +63,7 @@ class WorkPage extends React.Component {
             </p>
             <p className="lh-copy f5">
               Built mobile-first to be responsive and functional on most
-              devices. Websites will be tested for WCAG 2.0 compliance.
+              devices. Websites tested for WCAG 2.0 compliance.
             </p>
             <p className="lh-copy f5">
               Semantic html and rich snippet Schema.org markup means your website will be easily accessible to web crawlers.
