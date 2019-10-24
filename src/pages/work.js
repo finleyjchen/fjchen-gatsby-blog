@@ -54,18 +54,18 @@ class WorkPage extends React.Component {
         <div className="md:w-1/3 md:mr-10">
 
         <h2 className="text-lg mb-1">WordPress Design &amp; Development</h2>
-        <p>
+        <p className="font-light">
           I offer WordPress services in <strong>maintenance</strong>,{' '}
-          <strong>design</strong>, and <strong>development</strong>. Need a
-          custom plugin? Broken site with errors? Need maintenance and updates?
+          <strong>design</strong>, and <strong>development</strong> for all kinds of clients: small business, churches, nonprofits, and more. Need a
+          custom theme or plugin? Broken site with errors? Need maintenance and updates?
           I can help.
         </p>
         </div>
         <div className="md:w-1/3">
 
         <h2 className="text-lg mb-1">eCommerce</h2>
-        <p className="lh-copy f5">
-          I build and manage small to medium sized eCommerce sites. I can develop custom functionality
+        <p className="font-light">
+          I build and manage small to medium sized eCommerce sites, primarily in WooCommerce. I have experience working on all aspects of a successful eCommerce store, including speed and accessibility optimizations, SEO, and high-converting design and user experience.
         </p>
         </div>
         </div>
