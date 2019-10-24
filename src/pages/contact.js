@@ -48,10 +48,8 @@ export default class Contact extends React.Component {
           title={'Finley Chen - ' + siteTitle}
         />
         <h1 className="text-2xl md:text-6xl font-bold my-10 md:my-20">Contact Me</h1>
-        <p className="f5 f4-ns lh-title tc">
-          I'm interested in what you have to say.
-        </p>
-        <p><a href="mailto:finleyjchen@gmail.com">finleyjchen@gmail.com</a></p>
+        <p className="contact">
+          You can get in touch with me using this form below, or email me directly at <a href="mailto:finleyjchen@gmail.com">finleyjchen@gmail.com</a></p>
         <form
           name="contact"
           method="post"
