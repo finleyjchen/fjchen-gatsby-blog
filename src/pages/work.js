@@ -37,7 +37,7 @@ class WorkPage extends React.Component {
               Websites crafted for growth
             </h1>
 
-            <p className="text-lg md:text-3xl max-w-2xl">
+            <p className="text-2xl md:text-3xl max-w-2xl">
               I’m a freelance web developer who specializes in WordPress,
               WooCommerce and Shopify.{' '}
             </p>

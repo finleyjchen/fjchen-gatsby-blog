@@ -9,7 +9,7 @@ const About = () => (
           <div>
 
     <h1 className="text-5xl md:text-6xl font-bold my-10 md:my-20">Striving for greatness</h1>
-    <p className="text-lg md:text-3xl max-w-2xl">
+    <p className="text-2xl md:text-3xl max-w-2xl">
       Hi, I'm Finley. I'm a 19-year old front-end web developer and aspiring tech entrepreneur.     I build digital experiences with human-focused design and a focus on accessibility, semantic SEO, and speed.
 
     </p>
