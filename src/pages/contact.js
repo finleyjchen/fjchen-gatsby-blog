@@ -47,8 +47,8 @@ export default class Contact extends React.Component {
           meta={[{ name: 'description', content: siteDescription }]}
           title={'Finley Chen - ' + siteTitle}
         />
-        <h1 className="text-2xl md:text-6xl font-bold my-10 md:my-20">Contact Me</h1>
-        <p className="contact">
+        <h1 className="text-3xl md:text-6xl font-bold mt-10 md:mt-20 mb-5">Contact Me</h1>
+        <p className="contact text-lg md:text-2xl max-w-2xl">
           You can get in touch with me using this form below, or email me directly at <a href="mailto:finleyjchen@gmail.com">finleyjchen@gmail.com</a></p>
         <form
           name="contact"

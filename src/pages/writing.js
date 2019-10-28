@@ -19,7 +19,7 @@ class Writing extends React.Component {
           meta={[{ name: 'description', content: siteDescription }]}
           title={'Finley Chen - ' + siteTitle}
         />
-        <h1 className="text-2xl md:text-6xl font-bold my-10 md:my-20">Writing</h1>
+        <h1 className="text-2xl md:text-6xl font-bold mt-10 md:mt-20">Writing</h1>
         <div className="measure-wide center">
           {posts.map(({ node }) => {
             const title = get(node, 'frontmatter.title') || node.fields.slug

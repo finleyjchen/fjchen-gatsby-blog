@@ -33,11 +33,11 @@ class WorkPage extends React.Component {
         />
         <div className="flex flex-col md:flex-row justify-between items-center flex-col-reverse">
           <div>
-            <h1 className="text-5xl md:text-6xl font-bold my-10 md:my-20">
-              Websites crafted for growth
+            <h1 className="text-3xl md:text-6xl font-bold mt-10 md:mt-20 mb-5  tracking-tight">
+              Hand-crafted, quality websites.
             </h1>
 
-            <p className="text-2xl md:text-3xl max-w-2xl">
+            <p className="text-lg md:text-3xl max-w-2xl font-light text-gray-800">
               I’m a freelance web developer who specializes in WordPress,
               WooCommerce and Shopify.{' '}
             </p>

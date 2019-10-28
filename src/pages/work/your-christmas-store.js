@@ -6,7 +6,7 @@ import { FiMapPin } from 'react-icons/fi'
 import { IoMdHourglass, IoIosLink } from 'react-icons/io'
 import { FiArrowUpRight } from 'react-icons/fi'
 import Bio from '../../components/Bio'
-import Work from '../../components/Work'
+
 import Layout from '../../components/Layout'
 import '../../assets/index.css'
 import ycslogo from '../../assets/ycs-logo-square.png'

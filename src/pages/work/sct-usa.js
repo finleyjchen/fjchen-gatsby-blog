@@ -5,7 +5,7 @@ import Helmet from 'react-helmet'
 import { FiMapPin } from 'react-icons/fi'
 import { IoMdHourglass } from 'react-icons/io'
 import Bio from '../../components/Bio'
-import Work from '../../components/Work'
+
 import Layout from '../../components/Layout'
 import '../../assets/index.css'
 class Sctusa extends React.Component {

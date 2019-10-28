@@ -7,7 +7,7 @@ import { IoMdHourglass } from 'react-icons/io'
 import { FiArrowUpRight } from 'react-icons/fi'
 import CPWork from '../../assets/svg/cplogo.svg'
 import Bio from '../../components/Bio'
-import Work from '../../components/Work'
+
 import Layout from '../../components/Layout'
 import '../../assets/index.css'
 import { IoIosLink } from 'react-icons/io'

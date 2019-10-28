@@ -32,7 +32,7 @@ class Index extends React.Component {
         <div className=" flex flex-col md:flex-row justify-between items-center flex-col-reverse" >
           <div className="">
 
-            <h1 className="text-3xl md:text-5xl font-bold">
+            <h1 className="text-3xl md:text-6xl font-bold tracking-tight">
             Hi, I'm Finley.
             </h1>
 
