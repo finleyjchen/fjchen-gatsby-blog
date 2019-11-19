@@ -57,7 +57,7 @@ class AboutPage extends React.Component {
 
             <p className="md:w-1/2 md:pr-6 pb-6">
               <Link
-                className="text-xl bg-gray-800 text-pink-200 px-4 py-3 mr-4 hover:bg-pink-200 hover:text-gray-800 inline-block"
+                className="text-xl bg-gray-800 text-pink-200 px-4 py-2 mr-4 hover:bg-pink-200 hover:text-gray-800 inline-block"
                 to="/work"
               >
                 My Work

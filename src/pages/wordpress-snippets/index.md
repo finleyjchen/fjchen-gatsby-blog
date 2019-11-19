@@ -1,5 +1,5 @@
 ---
-title: Useful WordPress snippets
+title: Some Useful WordPress snippets
 date: '2018-10-11'
 ---
 

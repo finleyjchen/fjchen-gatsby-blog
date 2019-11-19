@@ -15,9 +15,9 @@ import Fade from 'react-reveal/Fade'
 
 class AllPeople extends React.Component {
   render() {
-    const siteTitle = 'Your Christmas Store'
+    const siteTitle = 'AllPeople'
     const siteDescription =
-      'eCommerce Christmas gift and decor store created by Finley Chen.'
+      'AllPeople is an ethical eCommerce marketplace for eco-friendly products.'
     const info = {}
     return (
       <Layout location={this.props.location} title={siteTitle}>

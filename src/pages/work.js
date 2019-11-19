@@ -8,6 +8,7 @@ import CPLogo from '../assets/svg/cplogo.svg'
 import scootlogo from '../assets/sct-usa-logo-square.png'
 import colonymedia from '../assets/colony-media-logo-square.png'
 import lighthouse from '../assets/images/lighthouse-atascadero.png'
+import church from '../assets/images/church-logo.png'
 import Img from 'gatsby-image'
 import Layout from '../components/Layout'
 import Fade from 'react-reveal/Fade'
@@ -127,6 +128,23 @@ class WorkPage extends React.Component {
               </Link>
             </div>
             <div className="w-full sm:w-1/2 mx-10 md:w-1/4 sm:mx-0 px-2 rise mb-5">
+              <Link
+                to="/work/grace-baptist"
+                className="block shadow-lg hover:shadow-xl bg-near-white hover-bg-white"
+              >
+              <img
+                  className="px-2 h-40 w-full object-cover"
+                  src={church}
+                  alt=""
+                />
+                <div className="h-24 w-full p-3 flex bg-gray-800 text-pink-200">
+                  <span className="mt-auto text-sm font-light tracking-wider uppercase">
+                    Grace Baptist Church - Paso Robles
+                  </span>
+                </div>
+              </Link>
+            </div>
+            <div className="w-full sm:w-1/2 mx-10 md:w-1/4 sm:mx-0 px-2 rise mb-5">
               <a
                 href="https://colonymedia.us"
                 className="block shadow-lg hover:shadow-xl bg-near-white hover-bg-white"
@@ -149,6 +167,7 @@ class WorkPage extends React.Component {
               </a>
               {/* </Link> */}
             </div>
+            
             <div className="w-full sm:w-1/2 mx-10 md:w-1/4 sm:mx-0 px-2 rise mb-5">
               <a
                 href="https://sctusa.com"
