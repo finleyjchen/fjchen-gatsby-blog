@@ -46,15 +46,25 @@ class AllPeople extends React.Component {
         </article>
 
         <article className="max-w-xl my-5 md:my-10 links">
-          <h2>Shopify vs WordPress/WooCommerce</h2>
+          <h2 className="mb-1">Shopify vs WordPress/WooCommerce</h2>
           <p className="font-light">
             AllPeople is an eCommerce startup located at the <a href="http://sbdc.calpoly.edu/slo-hothouse/" className="">Cal Poly HotHouse</a> business incubator.
           </p>
-          <p className="font-light">I helped develop the initial MVP for the site in Shopify, working in Liquid to hack in features to personalize information from nonprofit referral links.</p>
+          <p className="font-light">I helped develop the initial MVP for the site in Shopify, working in Liquid to hack in features to personalize information from nonprofit referral links and built a product catalog with 7000+ products.</p>
           <p className="font-light">Currently, we decided WooCommerce would offer control over our own server and many customization benefits that Shopify basic doesn't have to offer. In turn, I have been developing a fully-featured WooCommerce site.</p>
         </article>
 
-
+        <article className="max-w-xl my-5 md:my-10 links">
+          <h2 className="mb-1">Technologies</h2>
+          <ul className="list-disc list-inside">
+            <li>HTML/CSS</li>
+            <li>jQuery</li>
+            <li>Shopify + Emails: Liquid templating engine</li>
+            <li>WordPress</li>
+            <li>PHP</li>
+            <li>SQL</li>
+          </ul>
+        </article>
       </Layout>
     )
   }

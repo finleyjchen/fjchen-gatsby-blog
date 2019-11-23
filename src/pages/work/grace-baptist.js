@@ -29,16 +29,16 @@ class GraceBaptistPaso extends React.Component {
 
         <article className="py-10 flex flex-col md:flex-row">
           <div className="md:w-1/2 p-3 sm:p-0">
-          <h1 className="text-2xl md:text-5xl mb-3 md:mb-0">
+          <h1 className="text-2xl md:text-3xl mb-3 md:mb-0">
             
             <a
               href="https://gracebaptistpaso.org"
               className="hover:bg-gray-800 hover:text-pink-200"
               >
-              GraceBaptistPaso <FiArrowUpRight className="inline-block" />
+              GraceBaptistPaso.org <FiArrowUpRight className="inline-block" />
             </a>
           </h1>
-          <p className="text-lg font-light md:text-2xl max-w-xl">
+          <p className="text-lg font-light md:text-xl max-w-xl">
             The website for the Grace Baptist Church in Paso Robles, CA.
           </p>
               </div>

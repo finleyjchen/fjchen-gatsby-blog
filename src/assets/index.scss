@@ -254,3 +254,10 @@ a {
 .rise:hover {
     transform: translate3d(0,-.1rem,0)
 }
+
+.blog-post {
+  .gatsby-resp-image-link {
+    margin-top:1rem;
+    margin-bottom:1rem;
+  }
+}

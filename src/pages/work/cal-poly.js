@@ -67,6 +67,17 @@ class CalPoly extends React.Component {
             <li>Finding new ways to display different types of content</li>
           </ul>
         </article>
+
+        <article className="max-w-xl my-5 md:my-10 links">
+          <h2 className="mb-1">Technologies</h2>
+          <ul className="list-disc list-inside">
+            <li>Adobe Photoshop/Illustrator</li>
+            <li>HTML/CSS</li>
+            <li>jQuery</li>
+            <li>PHP</li>
+            <li>WAVE Accessibility tool</li>
+          </ul>
+        </article>
       </Layout>
     )
   }

@@ -29,7 +29,7 @@ class YourChristmasStore extends React.Component {
 
         <article className="py-10 flex flex-col md:flex-row">
           <div className="md:w-1/2 p-3 sm:p-0">
-          <h1 className="text-2xl md:text-5xl mb-3 md:mb-0">
+          <h1 className="text-2xl md:text-3xl mb-3 md:mb-0">
             
             <a
               href="https://yourchristmasstore.com"
@@ -38,7 +38,7 @@ class YourChristmasStore extends React.Component {
               YourChristmasStore <FiArrowUpRight className="inline-block" />
             </a>
           </h1>
-          <p className="text-lg font-light md:text-2xl max-w-xl">
+          <p className="text-lg font-light md:text-xl max-w-xl">
             YourChristmasStore is the online eCommerce store for the local San
             Diego Christmas store, Canterbury Gardens & Gifts.
           </p>
@@ -78,7 +78,17 @@ class YourChristmasStore extends React.Component {
             and for local customers at Canterbury Gardens & Gifts.
           </p>
         </article>
-
+        <article className="max-w-xl my-5 md:my-10 links">
+          <h2 className="mb-1">Technologies</h2>
+          <ul className="list-disc list-inside">
+            <li>WordPress</li>
+            <li>Adobe Photoshop/Illustrator</li>
+            <li>HTML/CSS</li>
+            <li>jQuery</li>
+            <li>SQL</li>
+            <li>PHP</li>
+          </ul>
+        </article>
       </Layout>
     )
   }

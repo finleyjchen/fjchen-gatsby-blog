@@ -32,12 +32,12 @@ class Index extends React.Component {
         <div className=" flex flex-col md:flex-row justify-between items-center flex-col-reverse" >
           <div className="">
 
-            <h1 className="text-3xl md:text-6xl font-bold tracking-tight">
-            Hi, I'm Finley.
+            <h1 className="text-2xl md:text-3xl font-light tracking-tight">
+            Hi, I'm <strong className="font-bold">Finley</strong>.
             </h1>
 
 
-            <p className="text-2xl md:text-3xl font-medium"><span className="">I'm a student at <a href="https://calpoly.edu" className="font-bold text-green-800 hover:text-gray-700">Cal Poly</a> and a developer at <a href="https://allpeople.co" className="font-bold text-purple-800	hover:text-gray-700">AllPeople</a></span>.</p>
+            <p className="text-2xl md:text-4xl font-medium"><span className="">I'm a student at <a href="https://calpoly.edu" className="font-bold text-green-800 hover:text-gray-700">Cal Poly</a> and a developer at <a href="https://allpeople.co" className="font-bold text-purple-800	hover:text-gray-700">AllPeople</a></span>.</p>
             <Link className="text-lg md:text-xl bg-gray-800 text-pink-200 px-4 py-2 mr-4 hover:bg-pink-200 hover:text-gray-800 inline-block" to="/work">My Work</Link>
             <Link className="text-lg md:text-xl bg-gray-800 text-pink-200 px-4 py-2 mr-4 hover:bg-pink-200 hover:text-gray-800 inline-block" to="/contact">Get in Touch</Link>
           </div>

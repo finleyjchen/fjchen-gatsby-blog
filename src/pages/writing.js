@@ -26,11 +26,11 @@ class Writing extends React.Component {
             return (
               <div className="post my-4" key={node.fields.slug}>
                 <Link
-                  className=" font-medium text-lg md:text-xl hover:text-gray-600"
+                  className=" font-bold text-lg md:text-xl hover:text-gray-600"
                   to={node.fields.slug}
                 >
                   {title}
-                  <small className="block">
+                  <small className="block font-light">
                     {node.frontmatter.date}
                   </small>
                 </Link>

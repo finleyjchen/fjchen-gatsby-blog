@@ -16,6 +16,7 @@ import flower3 from '../assets/flower3.png'
 
 import '../assets/index.css'
 import { cpus } from 'os'
+import { FiPaperclip } from 'react-icons/fi'
 class WorkPage extends React.Component {
   constructor(props) {
     super(props)
@@ -77,98 +78,77 @@ class WorkPage extends React.Component {
 
         <div className="">
           <div className="flex flex-wrap -mx-2">
-            <div className="w-full sm:w-1/2 mx-10 md:w-1/4 sm:mx-0 px-2 rise mb-5">
+            <div className="w-full sm:w-1/2 mx-5 md:w-1/3 sm:mx-0 px-2 rise mb-5">
               <Link
                 to="/work/allpeople"
                 className="block shadow-lg hover:shadow-xl bg-near-white hover-bg-white"
               >
                 <img
-                  className="px-2 h-40 w-full object-cover"
+                  className="px-2 h-48 md:h-32 w-full object-cover"
                   src={allpeoplelogo}
                   alt=""
                 />
 
-                <div className="h-24 w-full p-3 flex bg-gray-800 text-pink-200">
+                <div className="h-20 w-full p-3 flex bg-gray-800 text-pink-200">
                   <span className="mt-auto text-sm font-light tracking-wider uppercase">
                     AllPeople
                   </span>
                 </div>
               </Link>
             </div>
-            <div className="w-full sm:w-1/2 mx-10 md:w-1/4 sm:mx-0 px-2 rise mb-5">
+            <div className="w-full sm:w-1/2 mx-5 md:w-1/3 sm:mx-0 px-2 rise mb-5">
               <Link
                 to="/work/your-christmas-store"
                 className="block shadow-lg hover:shadow-xl bg-near-white hover-bg-white"
               >
                 <img
-                  className="px-2 h-40 w-full object-cover"
+                  className="px-2 h-48 md:h-32 w-full object-cover"
                   src={ycslogo}
                   alt=""
                 />
 
-                <div className="h-24 w-full p-3 flex bg-gray-800 text-pink-200">
-                  <span className="mt-auto text-sm font-light tracking-wider uppercase">
+                <div className="h-20 w-full p-3 flex bg-gray-800 text-pink-200">
+                  <span className="block mt-auto text-sm font-light tracking-wider uppercase">
                     Your Christmas Store
                   </span>
+                  
                 </div>
               </Link>
             </div>
-            <div className="w-full sm:w-1/2 mx-10 md:w-1/4 sm:mx-0 px-2 rise mb-5">
+            <div className="w-full sm:w-1/2 mx-5 md:w-1/3 sm:mx-0 px-2 rise mb-5">
               <Link
                 to="/work/cal-poly"
                 className="block shadow-lg hover:shadow-xl bg-near-white hover-bg-white"
               >
-                <CPLogo className="px-2 h-40 w-full object-cover" />
+                <CPLogo className="px-2 h-48 md:h-32 w-full object-cover" />
 
-                <div className="h-24 w-full p-3 flex bg-gray-800 text-pink-200">
+                <div className="h-20 w-full p-3 flex bg-gray-800 text-pink-200">
                   <span className="mt-auto text-sm font-light tracking-wider uppercase">
                     Cal Poly
                   </span>
                 </div>
               </Link>
             </div>
-            <div className="w-full sm:w-1/2 mx-10 md:w-1/4 sm:mx-0 px-2 rise mb-5">
+            <div className="w-full sm:w-1/2 mx-5 md:w-1/3 sm:mx-0 px-2 rise mb-5">
               <Link
                 to="/work/grace-baptist"
                 className="block shadow-lg hover:shadow-xl bg-near-white hover-bg-white"
               >
               <img
-                  className="px-2 h-40 w-full object-cover"
+                  className="px-2 h-48 md:h-32 w-full object-cover"
                   src={church}
                   alt=""
                 />
-                <div className="h-24 w-full p-3 flex bg-gray-800 text-pink-200">
-                  <span className="mt-auto text-sm font-light tracking-wider uppercase">
-                    Grace Baptist Church - Paso Robles
+                <div className="h-20 w-full p-3 flex bg-gray-800 text-pink-200">
+                  <span className="mt-auto mr-auto text-sm font-light tracking-wider uppercase">
+                    Grace Baptist Church
                   </span>
+                    <FiPaperclip className="float-right mt-auto"/>
                 </div>
               </Link>
             </div>
-            <div className="w-full sm:w-1/2 mx-10 md:w-1/4 sm:mx-0 px-2 rise mb-5">
-              <a
-                href="https://colonymedia.us"
-                className="block shadow-lg hover:shadow-xl bg-near-white hover-bg-white"
-              >
-                {/* <Link
-          to="/work/sct-usa"
-          className="block shadow-lg hover:shadow-xl bg-near-white hover-bg-white"
-        > */}
-                <img
-                  className="px-2 h-40 w-full object-cover"
-                  src={colonymedia}
-                  alt=""
-                />
-
-                <div className="h-24 w-full p-3 flex bg-gray-800 text-pink-200">
-                  <span className="mt-auto text-sm font-light tracking-wider uppercase">
-                    Colony Media
-                  </span>
-                </div>
-              </a>
-              {/* </Link> */}
-            </div>
             
-            <div className="w-full sm:w-1/2 mx-10 md:w-1/4 sm:mx-0 px-2 rise mb-5">
+            <div className="w-full sm:w-1/2 mx-5 md:w-1/3 sm:mx-0 px-2 rise mb-5">
               <a
                 href="https://sctusa.com"
                 className="block shadow-lg hover:shadow-xl bg-near-white hover-bg-white"
@@ -178,20 +158,22 @@ class WorkPage extends React.Component {
           className="block shadow-lg hover:shadow-xl bg-near-white hover-bg-white"
         > */}
                 <img
-                  className="px-2 h-40 w-full object-cover"
+                  className="px-2 h-48 md:h-32 w-full object-cover"
                   src={scootlogo}
                   alt=""
                 />
 
-                <div className="h-24 w-full p-3 flex bg-gray-800 text-pink-200">
-                  <span className="mt-auto text-sm font-light tracking-wider uppercase">
+                <div className="h-20 w-full p-3 flex bg-gray-800 text-pink-200">
+                  <span className="mt-auto mr-auto text-sm font-light tracking-wider uppercase">
                     SCT USA
                   </span>
+                  <FiPaperclip className="float-right mt-auto"/>
+
                 </div>
               </a>
               {/* </Link> */}
             </div>
-            <div className="w-full sm:w-1/2 mx-10 md:w-1/4 sm:mx-0 px-2 rise mb-5">
+            <div className="w-full sm:w-1/2 mx-5 md:w-1/3 sm:mx-0 px-2 rise mb-5">
               <a
                 href="https://lighthouseatascadero.org"
                 className="block shadow-lg hover:shadow-xl bg-near-white hover-bg-white"
@@ -201,28 +183,23 @@ class WorkPage extends React.Component {
           bg-near-white hover-bg-whit" >
         */}
                 <img
-                  className="px-2 h-40 w-full object-cover"
+                  className="px-2 h-48 md:h-32 w-full object-cover"
                   src={lighthouse}
                   alt=""
                 />
-                <div className="h-24 w-full p-3 flex bg-gray-800 text-pink-200">
-                  <span className="mt-auto text-sm font-light tracking-wider uppercase ">
+                <div className="h-20 w-full p-3 flex bg-gray-800 text-pink-200">
+                  <span className="mt-auto mr-auto text-sm font-light tracking-wider uppercase ">
                     Lighthouse Atascadero
                   </span>
+                  <FiPaperclip className="float-right mt-auto"/>
+
                 </div>
               </a>
               {/* </Link> */}
             </div>
           </div>
         </div>
-        <div className="md:px-2 flex items-center">
-          <Link
-            to="/contact"
-            className="mx-auto my-10 px-5 py-3 border-gray-800 border-2 bg-gray-800 text-pink-200 hover:text-pink-300 hover:bg-gray-700 text-xl md:text-2xl shadow-lg hover:shadow-xl rise block max-w-xs"
-          >
-            Get in touch with me &rarr;
-          </Link>
-        </div>
+
       </Layout>
     )
   }

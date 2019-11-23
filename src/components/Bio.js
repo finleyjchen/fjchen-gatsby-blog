@@ -14,9 +14,9 @@ import {
 class Bio extends React.Component {
   render() {
     return (
-      <article className="bio bg-gray-200 max-w-xl p-4 my-4">
+      <article className="bio bg-gray-200 max-w-xl py-4 px-2 -mx-2 my-4 text-center items-center flex flex-col">
         {/* <img className="profile-img" src={profileImg} alt='finley chen photo' /> */}
-        <h3 className="text-xl ">About The Author</h3>
+        <h3 className="text-xl mb-2">About Me</h3>
         <p className="">
           Hi there, my name is Finley. I’m a freelance web developer who
           specializes in WordPress and Woocommerce. Hire me to create

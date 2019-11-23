@@ -30,7 +30,7 @@ class Menu extends React.Component {
   render() {
     return (
       <header className="w-full ">
-        <nav className="container mx-auto flex flex-wrap content-center flex-row text-left justify-between py-2 px-3 md:px-6 bg-white border-b items-center w-full">
+        <nav className="max-w-5xl mx-auto flex flex-wrap content-center flex-row text-left justify-between py-2 px-3 md:px-6 bg-white border-b items-center w-full">
           <div className="md:text-left mb-2 sm:mb-0 w-1/2">
 
           <Link

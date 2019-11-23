@@ -88,7 +88,7 @@ class Layout extends React.Component {
           {header}
           <Fade>
           <main
-            className={`  container mx-auto p-3 md:p-6 `} 
+            className={`max-w-5xl container mx-auto p-3  `} 
               >
             {children}
           </main>
