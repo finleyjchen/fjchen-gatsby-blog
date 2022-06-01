@@ -40,7 +40,7 @@
     "react-reveal": "^1.2.2",
     "react-typography": "^0.16.13",
     "scrollreveal": "^4.0.5",
-    "sharp": "^0.22.1",
+    "sharp": "^0.30.5",
     "typeface-merriweather": "0.0.43",
     "typeface-montserrat": "0.0.43",
     "typography": "^0.16.17",
